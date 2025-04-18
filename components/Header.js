@@ -1,16 +1,30 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
-// TODO: Replace with actual authentication state and actions
-// import { useAuth } from '../context/AuthContext'; // Example
+import { useAuth } from "../context/AuthContext";
+import { auth } from "../utils/firebase";
+import { signOut } from "firebase/auth";
+import { useRouter } from "next/router";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
-  // const { user, logout } = useAuth(); // Example: Get user state and logout function
-  const user = null; // Placeholder for user state
+  const { currentUser } = useAuth(); // Get user from context
+  const router = useRouter();
 
+  // Handle logout function
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+      // Redirect to login page after successful logout
+      router.push('/login');
+    } catch (error) {
+      console.error('Logout failed', error);
+    }
+  };
+
+  // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;
@@ -30,6 +44,7 @@ export default function Header() {
             aria-label="Toggle Menu"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
+            {/* Hamburger Icon */}
             <svg
               width="24"
               height="24"
@@ -54,9 +69,9 @@ export default function Header() {
             }`
           }
         >
-          {/* Navigation Links - Adjust as needed */} 
+          {/* Navigation Links */} 
           <nav className="flex flex-col items-center justify-center pt-1 pl-2 ml-1 space-y-4 md:space-y-0 md:space-x-8 md:flex-row md:mx-auto md:pl-14 text-base">
-             {user ? (
+             {currentUser ? (
               <>
                 <Link href="/dashboard">
                   <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
@@ -91,6 +106,7 @@ export default function Header() {
               className="w-10 h-10 p-2 mr-4 bg-gray-200 rounded-full dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
+              {/* Dark Mode Icon */}
               {mounted && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -118,22 +134,22 @@ export default function Header() {
               )}
             </button>
 
-            {/* Auth Buttons - Conditionally Render */} 
-            {user ? (
+            {/* Auth Buttons */} 
+            {currentUser ? (
               <button 
-                // onClick={logout} // TODO: Implement logout
+                onClick={handleLogout} // Call handleLogout function
                 className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Logout
               </button>
             ) : (
               <>
-                <Link href="/login">
+                <Link href="/login" legacyBehavior>
                   <a className="px-4 py-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-transparent rounded-md dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     Masuk
                   </a>
                 </Link>
-                <Link href="/register">
+                <Link href="/register" legacyBehavior>
                   <a className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     Daftar
                   </a>

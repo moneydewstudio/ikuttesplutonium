@@ -1,11 +1,14 @@
 import "../styles/global.css";
 import { ThemeProvider } from "next-themes";
+import { AuthProvider } from '../context/AuthContext';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <AuthProvider>
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </AuthProvider>
   );
 }
 
