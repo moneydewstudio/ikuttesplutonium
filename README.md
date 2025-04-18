@@ -1,10 +1,8 @@
-## Plutonium – where darkness meets the web.
+## Ikuttes – Your CPNS Exam Preparation Partner.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fminor%2Fplutonium)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=PASTE_YOUR_GIT_REPO_URL_HERE)
 
-![Home Page](/.github/home-dark.png?raw=true "Home Page [Dark]")
-
-Hey, there! This is a free website template created with Next.js 11 and styled with TailwindCSS (with Just-In-Time mode!). It has built-in support for dark mode and Next-SEO for the perfect SEO optimizations. The project is available at: [https://plutonium.saurish.com](https://plutonium.saurish.com).
+Hey, there! This is the codebase for Ikuttes, a CPNS-focused quiz and exam tryout website built with Next.js and styled with TailwindCSS. It aims to help high school graduates and job seekers in Indonesia prepare for the CPNS exams.
 
 ### Built With
 
@@ -14,27 +12,26 @@ This website is built with the following services:
 - [Next-Themes](https://github.com/pacocoursey/next-themes)
 - [Next-SEO](https://github.com/garmeeh/next-seo)
 - [TailwindCSS](https://tailwindcss.com)
-- [Vercel](https://vercel.com)
+- [Firebase](https://firebase.google.com/) (Authentication, Firestore, Hosting, Analytics)
+- [HeroUI](https://heroui.dev/) (Planned)
+- [Vercel](https://vercel.com) (or Firebase Hosting)
 
-## Replication
+## Development
 
 ### Installation
 
 ```bash
-$ git clone https://github.com/minor/plutonium.git
-$ cd plutonium
-$ yarn (or npm install)
-$ yarn dev (or npm run dev)
+# Clone the repository (replace with your actual repo URL)
+# git clone PASTE_YOUR_GIT_REPO_URL_HERE
+# cd ikuttes
+$ yarn # or npm install
+$ yarn dev # or npm run dev
 ```
 
 Now you can start editing!
 
 ## Contact
 
-Let me know if you do end up using anything from here – would be neat to know!
+[Your Contact Information Here]
 
-Email - [me@saurish.com](mailto:me@saurish.com)
-
-Twitter - [@saurishhh](https://twitter.com/saurishhh)
-
-Project Link: [https://github.com/minor/plutonium](https://github.com/minor/plutonium)
+Project Link: [Your Project Repo Link Here]

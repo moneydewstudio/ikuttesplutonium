@@ -1,5 +1,5 @@
 {
-  "name": "plutonium",
+  "name": "ikuttes",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "firebase": "^10.14.1",
     "glob-parent": "^5.1.2",
     "next": "^11.0.0",
     "next-seo": "^4.24.0",

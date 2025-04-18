@@ -1,30 +1,33 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+// TODO: Replace with actual authentication state and actions
+// import { useAuth } from '../context/AuthContext'; // Example
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+  // const { user, logout } = useAuth(); // Example: Get user state and logout function
+  const user = null; // Placeholder for user state
 
-  // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;
 
   return (
-    <header className="w-full sticky-nav">
-      <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
-        <div className="flex flex-row items-center justify-between p-2 md:p-1">
+    <header className="w-full sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md">
+      <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row items-center">
+        <div className="flex flex-row items-center justify-between p-2 md:p-1 w-full md:w-auto">
           <Link href="/">
-            <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0">
-              PLUTONIUM
+            <a className="text-2xl font-bold text-gray-900 transition duration-300 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-indigo-400">
+              IKUTTES
             </a>
           </Link>
           <button
-            className="px-3 py-1 pb-4 ml-auto text-black outline-none dark:text-gray-300 md:hidden"
+            className="px-3 py-1 text-gray-700 outline-none dark:text-gray-300 md:hidden focus:outline-none"
             type="button"
-            aria-label="button"
+            aria-label="Toggle Menu"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
             <svg
@@ -38,85 +41,106 @@ export default function Header() {
               strokeLinejoin="round"
               className="w-6 h-6"
             >
-              <line x1="3" y1="6" y2="6" x2="21"></line>
-              <line x1="3" y1="12" y2="12" x2="21"></line>
-              <line x1="3" y1="18" y2="18" x2="21"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
           </button>
         </div>
         <div
           className={
-            "md:flex flex-grow items-center" +
-            (navbarOpen ? " flex" : " hidden")
+            `md:flex flex-grow items-center w-full md:w-auto ${
+              navbarOpen ? " flex flex-col mt-4 md:mt-0" : " hidden"
+            }`
           }
         >
-          <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
-            <a
-              href="/#features"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
+          {/* Navigation Links - Adjust as needed */} 
+          <nav className="flex flex-col items-center justify-center pt-1 pl-2 ml-1 space-y-4 md:space-y-0 md:space-x-8 md:flex-row md:mx-auto md:pl-14 text-base">
+             {user ? (
+              <>
+                <Link href="/dashboard">
+                  <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                    Dashboard
+                  </a>
+                </Link>
+                 <Link href="/profil">
+                  <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                    Profil
+                  </a>
+                </Link>
+                <Link href="/leaderboard">
+                  <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                    Papan Peringkat
+                  </a>
+                </Link>
+              </>
+            ) : (
+               <Link href="/#features">
+                 <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                    Fitur
+                 </a>
+               </Link>
+             )}
+          </nav>
+          
+          {/* Theme Toggle & Auth Buttons */}
+          <div className="flex items-center mt-4 md:mt-0">
+            <button
+              aria-label="Toggle Dark Mode"
+              type="button"
+              className="w-10 h-10 p-2 mr-4 bg-gray-200 rounded-full dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
-              Features
-            </a>
-            <a
-              href="/#pricing"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              Pricing
-            </a>
-            <Link href="/404">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
-                Demo
-              </a>
-            </Link>
-          </div>
-          <button
-            aria-label="Toggle Dark Mode"
-            type="button"
-            className="w-10 h-10 p-3 ml-5 mr-0 bg-gray-200 rounded md:ml-0 md:mr-5 dark:bg-gray-800"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          >
-            {mounted && (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                stroke="currentColor"
-                className="w-4 h-4 text-gray-800 dark:text-gray-200"
-              >
-                {theme === "dark" ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                  />
-                ) : (
-                  <svg className="svg-icon" viewBox="0 0 20 20">
+              {mounted && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  stroke="currentColor"
+                  className="w-6 h-6 text-gray-800 dark:text-gray-200"
+                >
+                  {theme === "dark" ? (
                     <path
-                      fill="none"
-                      d="M10.544 8.717l1.166-.855 1.166.855-.467-1.399 1.012-.778h-1.244l-.467-1.243-.466 1.244H10l1.011.778-.467 1.398zm5.442.855l-.467 1.244h-1.244l1.011.777-.467 1.4 1.167-.855 1.165.855-.466-1.4 1.011-.777h-1.244l-.466-1.244zm-8.979-3.02c0-2.259.795-4.33 2.117-5.955A9.418 9.418 0 00.594 9.98c0 5.207 4.211 9.426 9.406 9.426 2.94 0 5.972-1.354 7.696-3.472-.289.026-.987.044-1.283.044-5.194.001-9.406-4.219-9.406-9.426M10 18.55c-4.715 0-8.551-3.845-8.551-8.57 0-3.783 2.407-6.999 5.842-8.131a10.32 10.32 0 00-1.139 4.703c0 5.368 4.125 9.788 9.365 10.245A9.733 9.733 0 0110 18.55m9.406-16.246h-1.71l-.642-1.71-.642 1.71h-1.71l1.39 1.069-.642 1.924 1.604-1.176 1.604 1.176-.642-1.924 1.39-1.069z"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                     />
-                  </svg>
-                )}
-              </svg>
+                  ) : (
+                     <path 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round" 
+                      strokeWidth={2} 
+                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" 
+                    />
+                  )}
+                </svg>
+              )}
+            </button>
+
+            {/* Auth Buttons - Conditionally Render */} 
+            {user ? (
+              <button 
+                // onClick={logout} // TODO: Implement logout
+                className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Logout
+              </button>
+            ) : (
+              <>
+                <Link href="/login">
+                  <a className="px-4 py-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-transparent rounded-md dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    Masuk
+                  </a>
+                </Link>
+                <Link href="/register">
+                  <a className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    Daftar
+                  </a>
+                </Link>
+              </>
             )}
-          </button>
-          <a
-            href="#"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible dark:hover:border-gray-500 hover:shadow-md transition duration-300 mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
-          >
-            Sign in
-          </a>
-          <a
-            href="#"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
-          >
-            Sign up
-          </a>
+          </div>
         </div>
       </div>
     </header>
