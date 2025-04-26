@@ -59,8 +59,8 @@ const Login = () => {
           <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
             Masuk
           </button>
-          <Link href="/register">
-            <a className="inline-block align-baseline font-bold text-sm text-indigo-500 hover:text-indigo-800 dark:text-indigo-300">Daftar</a>
+          <Link href="/register" className="inline-block align-baseline font-bold text-sm text-indigo-500 hover:text-indigo-800 dark:text-indigo-300">
+            Daftar
           </Link>
         </div>
       </form>

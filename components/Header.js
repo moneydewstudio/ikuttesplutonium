@@ -33,10 +33,8 @@ export default function Header() {
     <header className="w-full sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md">
       <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row items-center">
         <div className="flex flex-row items-center justify-between p-2 md:p-1 w-full md:w-auto">
-          <Link href="/">
-            <a className="text-2xl font-bold text-gray-900 transition duration-300 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-indigo-400">
-              IKUTTES
-            </a>
+          <Link href="/" className="text-2xl font-bold text-gray-900 transition duration-300 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-indigo-400">
+            IKUTTES
           </Link>
           <button
             className="px-3 py-1 text-gray-700 outline-none dark:text-gray-300 md:hidden focus:outline-none"
@@ -73,27 +71,19 @@ export default function Header() {
           <nav className="flex flex-col items-center justify-center pt-1 pl-2 ml-1 space-y-4 md:space-y-0 md:space-x-8 md:flex-row md:mx-auto md:pl-14 text-base">
              {currentUser ? (
               <>
-                <Link href="/dashboard">
-                  <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    Dashboard
-                  </a>
+                <Link href="/dashboard" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  Dashboard
                 </Link>
-                 <Link href="/profil">
-                  <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    Profil
-                  </a>
+                <Link href="/profil" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  Profil
                 </Link>
-                <Link href="/leaderboard">
-                  <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    Papan Peringkat
-                  </a>
+                <Link href="/leaderboard" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  Papan Peringkat
                 </Link>
               </>
             ) : (
-               <Link href="/#features">
-                 <a className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                    Fitur
-                 </a>
+               <Link href="/#features" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  Fitur
                </Link>
              )}
           </nav>
@@ -144,15 +134,11 @@ export default function Header() {
               </button>
             ) : (
               <>
-                <Link href="/login" legacyBehavior>
-                  <a className="px-4 py-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-transparent rounded-md dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                    Masuk
-                  </a>
+                <Link href="/login" legacyBehavior className="px-4 py-2 mr-2 text-sm font-medium text-gray-700 bg-gray-100 border border-transparent rounded-md dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Masuk
                 </Link>
-                <Link href="/register" legacyBehavior>
-                  <a className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                    Daftar
-                  </a>
+                <Link href="/register" legacyBehavior className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Daftar
                 </Link>
               </>
             )}
