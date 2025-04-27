@@ -1,0 +1,84 @@
+[debug] [2025-04-27T14:31:18.698Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-27T14:32:04.470Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-27T14:32:04.475Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-27T14:32:04.477Z] > authorizing via signed-in user (pojok.sepak@gmail.com)
+[debug] [2025-04-27T14:32:04.500Z] Checked if tokens are valid: true, expires at: 1745765528748
+[debug] [2025-04-27T14:32:04.503Z] Checked if tokens are valid: true, expires at: 1745765528748
+[debug] [2025-04-27T14:32:04.504Z] [Firebase Plugin] User found:  pojok.sepak@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-04-27T14:32:04.511Z] Checked if tokens are valid: true, expires at: 1745765528748
+[debug] [2025-04-27T14:32:04.522Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-04-27T14:32:04.558Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[info] [Firebase Plugin] Starting Data Connect toolkit (version 2.2.0) on port 50001
+[debug] [2025-04-27T14:32:07.380Z] I0427 21:32:07.347154   20659 control.go:71] [/emulator/ikuttesplutonium fcdf] UpdateResources(): done
+Schema: sources: schema/schema.gql [2088B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:32:07.347154   20659 control.go:71] [/emulator/ikuttesplutonium fcdf] UpdateResources(): done\nSchema: sources: schema/schema.gql [2088B] \nConnector \"default\": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] \n"}}
+[debug] [2025-04-27T14:32:07.386Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-04-27T14:32:07.390Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-04-27T14:32:07.393Z] Starting Data Connect Emulator with command {"binary":"/home/anin/.cache/firebase/emulators/dataconnect-emulator-2.2.0","args":["--logtostderr","-v=2","dev","--listen=localhost:50001","--config_dir=/home/anin/ikuttesplutonium/dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"/home/anin/.cache/firebase/emulators/dataconnect-emulator-2.2.0\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=localhost:50001\",\"--config_dir=/home/anin/ikuttesplutonium/dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to dataconnect-debug.log"}}
+[debug] [2025-04-27T14:32:07.623Z] I0427 21:32:07.496516   20665 env.go:20] Enabled Preview Flags: conn_evolution
+I0427 21:32:07.497228   20665 load.go:37] Reloading schema and connectors...
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:32:07.496516   20665 env.go:20] Enabled Preview Flags: conn_evolution\nI0427 21:32:07.497228   20665 load.go:37] Reloading schema and connectors...\n"}}
+[debug] [2025-04-27T14:32:07.740Z] I0427 21:32:07.666358   20665 control.go:71] [/emulator/ikuttesplutonium 40a4] UpdateResources(): done
+Schema: sources: schema/schema.gql [2088B] 
+Connector "default": sources: connector/queries.gql [1802B] connector/mutations.gql [1233B] 
+I0427 21:32:07.722495   20665 env.go:20] Enabled Preview Flags: conn_evolution
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:32:07.666358   20665 control.go:71] [/emulator/ikuttesplutonium 40a4] UpdateResources(): done\nSchema: sources: schema/schema.gql [2088B] \nConnector \"default\": sources: connector/queries.gql [1802B] connector/mutations.gql [1233B] \nI0427 21:32:07.722495   20665 env.go:20] Enabled Preview Flags: conn_evolution\n"}}
+[debug] [2025-04-27T14:32:07.925Z] I0427 21:32:07.796479   20665 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector"
+I0427 21:32:07.854010   20665 collector.go:107] schema extensions wrote into "/home/anin/ikuttesplutonium/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [69396B] 
+I0427 21:32:07.870647   20665 collector.go:107] connector "default" javascriptSdk wrote into "/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector"
+Generated sources: README.md [2774B] react/esm/package.json [17B] react/index.cjs.js [0B] react/esm/index.esm.js [0B] index.d.ts [246B] esm/index.esm.js [119B] index.cjs.js [154B] package.json [860B] react/README.md [5417B] esm/package.json [17B] react/index.d.ts [228B] react/package.json [468B] 
+I0427 21:32:07.891298   20665 installsdk.go:80] Running command: yarn add link:dataconnect-generated/js/default-connector
+E0427 21:32:07.891347   20665 installsdk.go:82] Failed to install package: exec: "yarn": executable file not found in $PATH
+I0427 21:32:07.891378   20665 load.go:115] Finished reloading
+I0427 21:32:07.893368   20665 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50001
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:32:07.796479   20665 codegen.go:82] [connector \"default\" javascriptSdk] Generating sources into \"/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector\"\nI0427 21:32:07.854010   20665 collector.go:107] schema extensions wrote into \"/home/anin/ikuttesplutonium/dataconnect/.dataconnect/schema\"\nGenerated sources: prelude.gql [69396B] \nI0427 21:32:07.870647   20665 collector.go:107] connector \"default\" javascriptSdk wrote into \"/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector\"\nGenerated sources: README.md [2774B] react/esm/package.json [17B] react/index.cjs.js [0B] react/esm/index.esm.js [0B] index.d.ts [246B] esm/index.esm.js [119B] index.cjs.js [154B] package.json [860B] react/README.md [5417B] esm/package.json [17B] react/index.d.ts [228B] react/package.json [468B] \nI0427 21:32:07.891298   20665 installsdk.go:80] Running command: yarn add link:dataconnect-generated/js/default-connector\nE0427 21:32:07.891347   20665 installsdk.go:82] Failed to install package: exec: \"yarn\": executable file not found in $PATH\nI0427 21:32:07.891378   20665 load.go:115] Finished reloading\nI0427 21:32:07.893368   20665 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50001\n"}}
+[debug] [2025-04-27T14:32:08.281Z] I0427 21:32:08.271450   20665 engine.go:170] [/emulator/ikuttesplutonium 40a4] ExecuteGraphqlRead IntrospectionQuery: succeeded. 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:32:08.271450   20665 engine.go:170] [/emulator/ikuttesplutonium 40a4] ExecuteGraphqlRead IntrospectionQuery: succeeded. \n"}}
+[debug] [2025-04-27T14:32:08.287Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-27T14:32:08.291Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[warn] ⚠  Data Connect Emulator has exited upon receiving signal: SIGINT 
+[debug] [2025-04-27T14:35:18.242Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Unable to check firebase-tools installation: TypeError: fetch failed
+[debug] [2025-04-27T14:35:43.918Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-27T14:35:43.939Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-27T14:35:43.941Z] > authorizing via signed-in user (pojok.sepak@gmail.com)
+[debug] [2025-04-27T14:35:44.044Z] Checked if tokens are valid: true, expires at: 1745765528748
+[debug] [2025-04-27T14:35:44.056Z] Checked if tokens are valid: true, expires at: 1745765528748
+[debug] [2025-04-27T14:35:44.057Z] [Firebase Plugin] User found:  pojok.sepak@gmail.com
+[info] [Firebase Plugin] (Core:Project) New user detected, fetching projects
+[debug] [2025-04-27T14:35:44.085Z] Checked if tokens are valid: true, expires at: 1745765528748
+[debug] [2025-04-27T14:35:44.109Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-04-27T14:35:44.271Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[info] [Firebase Plugin] Starting Data Connect toolkit (version 2.2.0) on port 50001
+[debug] [2025-04-27T14:35:58.610Z] I0427 21:35:58.468628   21522 control.go:71] [/emulator/ikuttesplutonium 5530] UpdateResources(): done
+Schema: sources: schema/schema.gql [2088B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:35:58.468628   21522 control.go:71] [/emulator/ikuttesplutonium 5530] UpdateResources(): done\nSchema: sources: schema/schema.gql [2088B] \nConnector \"default\": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] \n"}}
+[debug] [2025-04-27T14:35:58.624Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-04-27T14:35:58.625Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-04-27T14:35:58.632Z] Starting Data Connect Emulator with command {"binary":"/home/anin/.cache/firebase/emulators/dataconnect-emulator-2.2.0","args":["--logtostderr","-v=2","dev","--listen=localhost:50001","--config_dir=/home/anin/ikuttesplutonium/dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"/home/anin/.cache/firebase/emulators/dataconnect-emulator-2.2.0\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=localhost:50001\",\"--config_dir=/home/anin/ikuttesplutonium/dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to dataconnect-debug.log"}}
+[debug] [2025-04-27T14:36:00.108Z] I0427 21:35:59.097079   21529 env.go:20] Enabled Preview Flags: conn_evolution
+I0427 21:35:59.099718   21529 load.go:37] Reloading schema and connectors...
+I0427 21:35:59.522033   21529 control.go:71] [/emulator/ikuttesplutonium 3944] UpdateResources(): done
+Schema: sources: schema/schema.gql [2088B] 
+Connector "default": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] 
+I0427 21:35:59.669118   21529 env.go:20] Enabled Preview Flags: conn_evolution
+I0427 21:35:59.860632   21529 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector"
+I0427 21:35:59.966418   21529 collector.go:107] schema extensions wrote into "/home/anin/ikuttesplutonium/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [69396B] 
+I0427 21:35:59.975261   21529 collector.go:107] connector "default" javascriptSdk wrote into "/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector"
+Generated sources: index.cjs.js [154B] package.json [860B] README.md [2774B] react/index.d.ts [228B] react/esm/index.esm.js [0B] react/README.md [5417B] index.d.ts [246B] esm/index.esm.js [119B] react/esm/package.json [17B] react/index.cjs.js [0B] esm/package.json [17B] react/package.json [468B] 
+I0427 21:35:59.988864   21529 installsdk.go:80] Running command: yarn add link:dataconnect-generated/js/default-connector
+E0427 21:35:59.988914   21529 installsdk.go:82] Failed to install package: exec: "yarn": executable file not found in $PATH
+I0427 21:35:59.988943   21529 load.go:115] Finished reloading
+I0427 21:35:59.989525   21529 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50001
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0427 21:35:59.097079   21529 env.go:20] Enabled Preview Flags: conn_evolution\nI0427 21:35:59.099718   21529 load.go:37] Reloading schema and connectors...\nI0427 21:35:59.522033   21529 control.go:71] [/emulator/ikuttesplutonium 3944] UpdateResources(): done\nSchema: sources: schema/schema.gql [2088B] \nConnector \"default\": sources: connector/mutations.gql [1233B] connector/queries.gql [1802B] \nI0427 21:35:59.669118   21529 env.go:20] Enabled Preview Flags: conn_evolution\nI0427 21:35:59.860632   21529 codegen.go:82] [connector \"default\" javascriptSdk] Generating sources into \"/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector\"\nI0427 21:35:59.966418   21529 collector.go:107] schema extensions wrote into \"/home/anin/ikuttesplutonium/dataconnect/.dataconnect/schema\"\nGenerated sources: prelude.gql [69396B] \nI0427 21:35:59.975261   21529 collector.go:107] connector \"default\" javascriptSdk wrote into \"/home/anin/ikuttesplutonium/dataconnect-generated/js/default-connector\"\nGenerated sources: index.cjs.js [154B] package.json [860B] README.md [2774B] react/index.d.ts [228B] react/esm/index.esm.js [0B] react/README.md [5417B] index.d.ts [246B] esm/index.esm.js [119B] react/esm/package.json [17B] react/index.cjs.js [0B] esm/package.json [17B] react/package.json [468B] \nI0427 21:35:59.988864   21529 installsdk.go:80] Running command: yarn add link:dataconnect-generated/js/default-connector\nE0427 21:35:59.988914   21529 installsdk.go:82] Failed to install package: exec: \"yarn\": executable file not found in $PATH\nI0427 21:35:59.988943   21529 load.go:115] Finished reloading\nI0427 21:35:59.989525   21529 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:50001\n"}}
+[debug] [2025-04-27T14:36:08.156Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-27T14:36:08.186Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]

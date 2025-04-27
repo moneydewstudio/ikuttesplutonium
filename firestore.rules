@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && 
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Default rule - authenticated users can read/write
+    match /{document=**} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Quiz Results Collection
+    // Users can only access their own quiz results
+    // Admins can access all quiz results
+    match /quizResults/{document} {
+      // Read existing documents
+      allow read: if isAdmin() || (isAuthenticated() && request.auth.uid == resource.data.userId);
+      
+      // Create new documents
+      allow create: if isAdmin() || (isAuthenticated() && request.auth.uid == request.resource.data.userId);
+      
+      // Update or delete existing documents
+      allow update, delete: if isAdmin() || (isAuthenticated() && request.auth.uid == resource.data.userId);
+    }
+    
+    // Leaderboard Collection
+    // All authenticated users can read the leaderboard
+    // Users can only update their own entry
+    // Admins can update any entry
+    match /leaderboard/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin() || isOwner(userId);
+    }
+    
+    // Users Collection
+    // Users can only access their own data
+    // Admins can access all user data
+    match /users/{userId} {
+      allow read: if isAdmin() || isOwner(userId);
+      allow write: if isAdmin() || isOwner(userId);
+    }
+    
+    // Questions Collection
+    // All authenticated users can read questions
+    // Only admins can create, update, or delete questions
+    match /questions/{questionId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAdmin();
+    }
+  }
+}
