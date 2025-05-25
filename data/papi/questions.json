@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "totalQuestions": 90,
+    "language": "id",
+    "estimatedTimeMinutes": {
+      "min": 10,
+      "max": 15
+    }
+  },
+  "questions": [
+    { "id": 1, "pair": [ { "label": "A", "text": "Saya senang mengambil keputusan untuk tim" }, { "label": "B", "text": "Saya lebih suka bekerja sesuai prosedur yang ada" } ], "dimensions": { "A": "Leadership", "B": "Conformity" } },
+    { "id": 2, "pair": [ { "label": "A", "text": "Saya memiliki energi tinggi dalam bekerja" }, { "label": "B", "text": "Saya dapat mengendalikan emosi dengan baik" } ], "dimensions": { "A": "Vigor", "B": "Self-Control" } },
+    { "id": 3, "pair": [ { "label": "A", "text": "Saya mudah memahami perasaan orang lain" }, { "label": "B", "text": "Saya berinisiatif mencari solusi masalah" } ], "dimensions": { "A": "Empathy", "B": "Initiative" } },
+    { "id": 4, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan sendiri" }, { "label": "B", "text": "Saya bertanggung jawab atas tugas yang diberikan" } ], "dimensions": { "A": "Independence", "B": "Responsibility" } },
+    { "id": 5, "pair": [ { "label": "A", "text": "Saya mudah beradaptasi dengan lingkungan baru" }, { "label": "B", "text": "Saya senang berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 6, "pair": [ { "label": "A", "text": "Saya suka memimpin diskusi kelompok" }, { "label": "B", "text": "Saya memahami kebutuhan tim dengan baik" } ], "dimensions": { "A": "Dominance", "B": "Empathy" } },
+    { "id": 7, "pair": [ { "label": "A", "text": "Saya selalu mengikuti jadwal yang telah dibuat" }, { "label": "B", "text": "Saya bisa bekerja mandiri tanpa supervisi" } ], "dimensions": { "A": "Conformity", "B": "Independence" } },
+    { "id": 8, "pair": [ { "label": "A", "text": "Saya aktif mencari peluang baru" }, { "label": "B", "text": "Saya konsisten dalam menyelesaikan tugas" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 9, "pair": [ { "label": "A", "text": "Saya mudah bergaul dengan orang baru" }, { "label": "B", "text": "Saya tetap tenang dalam situasi tertekan" } ], "dimensions": { "A": "Sociability", "B": "Stability" } },
+    { "id": 10, "pair": [ { "label": "A", "text": "Saya suka mengorganisir tim" }, { "label": "B", "text": "Saya penuh semangat dalam mengerjakan tugas" } ], "dimensions": { "A": "Leadership", "B": "Vigor" } },
+    { "id": 11, "pair": [ { "label": "A", "text": "Saya selalu berusaha memahami perasaan rekan kerja" }, { "label": "B", "text": "Saya lebih suka mengambil inisiatif dalam tugas" } ], "dimensions": { "A": "Empathy", "B": "Initiative" } },
+    { "id": 12, "pair": [ { "label": "A", "text": "Saya merasa nyaman bekerja di bawah tekanan" }, { "label": "B", "text": "Saya suka berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 13, "pair": [ { "label": "A", "text": "Saya selalu menyelesaikan tugas tepat waktu" }, { "label": "B", "text": "Saya sering mencari cara baru untuk menyelesaikan masalah" } ], "dimensions": { "A": "Responsibility", "B": "Initiative" } },
+    { "id": 14, "pair": [ { "label": "A", "text": "Saya suka menjadi pusat perhatian dalam kelompok" }, { "label": "B", "text": "Saya lebih suka mengikuti aturan yang ada" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 15, "pair": [ { "label": "A", "text": "Saya dapat bekerja dengan baik tanpa pengawasan" }, { "label": "B", "text": "Saya selalu berusaha memahami perasaan orang lain" } ], "dimensions": { "A": "Independence", "B": "Empathy" } },
+    { "id": 16, "pair": [ { "label": "A", "text": "Saya suka memimpin proyek besar" }, { "label": "B", "text": "Saya bertanggung jawab atas hasil kerja tim" } ], "dimensions": { "A": "Leadership", "B": "Responsibility" } },
+    { "id": 17, "pair": [ { "label": "A", "text": "Saya selalu bersemangat dalam bekerja" }, { "label": "B", "text": "Saya dapat mengendalikan emosi dalam situasi sulit" } ], "dimensions": { "A": "Vigor", "B": "Self-Control" } },
+    { "id": 18, "pair": [ { "label": "A", "text": "Saya suka mencari pengalaman baru" }, { "label": "B", "text": "Saya selalu mengikuti prosedur kerja" } ], "dimensions": { "A": "Initiative", "B": "Conformity" } },
+    { "id": 19, "pair": [ { "label": "A", "text": "Saya suka membantu rekan yang kesulitan" }, { "label": "B", "text": "Saya lebih suka bekerja sendiri" } ], "dimensions": { "A": "Empathy", "B": "Independence" } },
+    { "id": 20, "pair": [ { "label": "A", "text": "Saya suka menjadi pemimpin dalam kelompok" }, { "label": "B", "text": "Saya selalu bertanggung jawab atas tugas saya" } ], "dimensions": { "A": "Leadership", "B": "Responsibility" } },
+    { "id": 21, "pair": [ { "label": "A", "text": "Saya mudah beradaptasi dengan perubahan" }, { "label": "B", "text": "Saya suka berinteraksi dengan orang baru" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 22, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan penting" }, { "label": "B", "text": "Saya selalu mengikuti aturan kerja" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 23, "pair": [ { "label": "A", "text": "Saya selalu berusaha memahami kebutuhan orang lain" }, { "label": "B", "text": "Saya lebih suka bekerja mandiri" } ], "dimensions": { "A": "Empathy", "B": "Independence" } },
+    { "id": 24, "pair": [ { "label": "A", "text": "Saya suka mencari solusi kreatif" }, { "label": "B", "text": "Saya bertanggung jawab atas pekerjaan saya" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 25, "pair": [ { "label": "A", "text": "Saya dapat mengendalikan diri dalam situasi sulit" }, { "label": "B", "text": "Saya selalu penuh semangat dalam bekerja" } ], "dimensions": { "A": "Self-Control", "B": "Vigor" } },
+    { "id": 26, "pair": [ { "label": "A", "text": "Saya suka bekerja dalam tim" }, { "label": "B", "text": "Saya lebih suka bekerja sendiri" } ], "dimensions": { "A": "Sociability", "B": "Independence" } },
+    { "id": 27, "pair": [ { "label": "A", "text": "Saya suka memimpin rapat" }, { "label": "B", "text": "Saya selalu mengikuti jadwal kerja" } ], "dimensions": { "A": "Leadership", "B": "Conformity" } },
+    { "id": 28, "pair": [ { "label": "A", "text": "Saya suka mencari pengalaman baru di tempat kerja" }, { "label": "B", "text": "Saya bertanggung jawab atas hasil kerja saya" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 29, "pair": [ { "label": "A", "text": "Saya suka membantu rekan kerja" }, { "label": "B", "text": "Saya selalu mengikuti prosedur yang ditetapkan" } ], "dimensions": { "A": "Empathy", "B": "Conformity" } },
+    { "id": 30, "pair": [ { "label": "A", "text": "Saya mudah beradaptasi dengan lingkungan baru" }, { "label": "B", "text": "Saya suka berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 31, "pair": [ { "label": "A", "text": "Saya suka memberi arahan kepada rekan kerja" }, { "label": "B", "text": "Saya lebih suka membantu menyelesaikan masalah orang lain" } ], "dimensions": { "A": "Dominance", "B": "Empathy" } },
+    { "id": 32, "pair": [ { "label": "A", "text": "Saya selalu mematuhi aturan yang berlaku" }, { "label": "B", "text": "Saya mandiri dalam mengambil keputusan" } ], "dimensions": { "A": "Conformity", "B": "Independence" } },
+    { "id": 33, "pair": [ { "label": "A", "text": "Saya sering memulai proyek baru di kantor" }, { "label": "B", "text": "Saya menyelesaikan tugas dengan penuh tanggung jawab" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 34, "pair": [ { "label": "A", "text": "Saya mudah bergaul di lingkungan baru" }, { "label": "B", "text": "Saya tetap tenang saat menghadapi tekanan" } ], "dimensions": { "A": "Sociability", "B": "Stability" } },
+    { "id": 35, "pair": [ { "label": "A", "text": "Saya suka menjadi pemimpin dalam tim" }, { "label": "B", "text": "Saya selalu antusias dalam bekerja" } ], "dimensions": { "A": "Leadership", "B": "Vigor" } },
+    { "id": 36, "pair": [ { "label": "A", "text": "Saya peka terhadap perasaan orang lain" }, { "label": "B", "text": "Saya suka mengambil inisiatif dalam tugas" } ], "dimensions": { "A": "Empathy", "B": "Initiative" } },
+    { "id": 37, "pair": [ { "label": "A", "text": "Saya cepat menyesuaikan diri di lingkungan baru" }, { "label": "B", "text": "Saya senang bersosialisasi dengan rekan kerja" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 38, "pair": [ { "label": "A", "text": "Saya bertanggung jawab atas hasil kerja saya" }, { "label": "B", "text": "Saya sering mengajukan ide baru" } ], "dimensions": { "A": "Responsibility", "B": "Initiative" } },
+    { "id": 39, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan dalam rapat" }, { "label": "B", "text": "Saya selalu mengikuti prosedur kerja" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 40, "pair": [ { "label": "A", "text": "Saya suka bekerja tanpa pengawasan" }, { "label": "B", "text": "Saya berempati dengan rekan kerja" } ], "dimensions": { "A": "Independence", "B": "Empathy" } },
+    { "id": 41, "pair": [ { "label": "A", "text": "Saya suka memimpin proyek" }, { "label": "B", "text": "Saya bertanggung jawab atas tim" } ], "dimensions": { "A": "Leadership", "B": "Responsibility" } },
+    { "id": 42, "pair": [ { "label": "A", "text": "Saya selalu bersemangat dalam bekerja" }, { "label": "B", "text": "Saya dapat mengendalikan emosi dengan baik" } ], "dimensions": { "A": "Vigor", "B": "Self-Control" } },
+    { "id": 43, "pair": [ { "label": "A", "text": "Saya suka mencari pengalaman baru" }, { "label": "B", "text": "Saya selalu mengikuti peraturan kantor" } ], "dimensions": { "A": "Initiative", "B": "Conformity" } },
+    { "id": 44, "pair": [ { "label": "A", "text": "Saya peka terhadap kebutuhan orang lain" }, { "label": "B", "text": "Saya suka bekerja mandiri" } ], "dimensions": { "A": "Empathy", "B": "Independence" } },
+    { "id": 45, "pair": [ { "label": "A", "text": "Saya suka mengatur jalannya tim" }, { "label": "B", "text": "Saya bertanggung jawab atas pekerjaan tim" } ], "dimensions": { "A": "Leadership", "B": "Responsibility" } },
+    { "id": 46, "pair": [ { "label": "A", "text": "Saya mudah menyesuaikan diri dengan perubahan" }, { "label": "B", "text": "Saya suka berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 47, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan penting" }, { "label": "B", "text": "Saya selalu mengikuti aturan kerja" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 48, "pair": [ { "label": "A", "text": "Saya selalu berusaha memahami kebutuhan rekan kerja" }, { "label": "B", "text": "Saya lebih suka bekerja mandiri" } ], "dimensions": { "A": "Empathy", "B": "Independence" } },
+    { "id": 49, "pair": [ { "label": "A", "text": "Saya suka mencari solusi kreatif" }, { "label": "B", "text": "Saya bertanggung jawab atas pekerjaan saya" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 50, "pair": [ { "label": "A", "text": "Saya dapat mengendalikan diri dalam situasi sulit" }, { "label": "B", "text": "Saya selalu penuh semangat dalam bekerja" } ], "dimensions": { "A": "Self-Control", "B": "Vigor" } },
+    { "id": 51, "pair": [ { "label": "A", "text": "Saya suka bekerja dalam tim" }, { "label": "B", "text": "Saya lebih suka bekerja sendiri" } ], "dimensions": { "A": "Sociability", "B": "Independence" } },
+    { "id": 52, "pair": [ { "label": "A", "text": "Saya suka memimpin rapat" }, { "label": "B", "text": "Saya selalu mengikuti jadwal kerja" } ], "dimensions": { "A": "Leadership", "B": "Conformity" } },
+    { "id": 53, "pair": [ { "label": "A", "text": "Saya suka mencari pengalaman baru di tempat kerja" }, { "label": "B", "text": "Saya bertanggung jawab atas hasil kerja saya" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 54, "pair": [ { "label": "A", "text": "Saya suka membantu rekan kerja" }, { "label": "B", "text": "Saya selalu mengikuti prosedur yang ditetapkan" } ], "dimensions": { "A": "Empathy", "B": "Conformity" } },
+    { "id": 55, "pair": [ { "label": "A", "text": "Saya mudah beradaptasi dengan lingkungan baru" }, { "label": "B", "text": "Saya suka berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 56, "pair": [ { "label": "A", "text": "Saya suka memberi arahan kepada rekan kerja" }, { "label": "B", "text": "Saya lebih suka membantu menyelesaikan masalah orang lain" } ], "dimensions": { "A": "Dominance", "B": "Empathy" } },
+    { "id": 57, "pair": [ { "label": "A", "text": "Saya selalu mematuhi aturan yang berlaku" }, { "label": "B", "text": "Saya mandiri dalam mengambil keputusan" } ], "dimensions": { "A": "Conformity", "B": "Independence" } },
+    { "id": 58, "pair": [ { "label": "A", "text": "Saya sering memulai proyek baru di kantor" }, { "label": "B", "text": "Saya menyelesaikan tugas dengan penuh tanggung jawab" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 59, "pair": [ { "label": "A", "text": "Saya mudah bergaul di lingkungan baru" }, { "label": "B", "text": "Saya tetap tenang saat menghadapi tekanan" } ], "dimensions": { "A": "Sociability", "B": "Stability" } },
+    { "id": 60, "pair": [ { "label": "A", "text": "Saya suka menjadi pemimpin dalam tim" }, { "label": "B", "text": "Saya selalu antusias dalam bekerja" } ], "dimensions": { "A": "Leadership", "B": "Vigor" } },
+    { "id": 61, "pair": [ { "label": "A", "text": "Saya peka terhadap perasaan orang lain" }, { "label": "B", "text": "Saya suka mengambil inisiatif dalam tugas" } ], "dimensions": { "A": "Empathy", "B": "Initiative" } },
+    { "id": 62, "pair": [ { "label": "A", "text": "Saya cepat menyesuaikan diri di lingkungan baru" }, { "label": "B", "text": "Saya senang bersosialisasi dengan rekan kerja" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 63, "pair": [ { "label": "A", "text": "Saya bertanggung jawab atas hasil kerja saya" }, { "label": "B", "text": "Saya sering mengajukan ide baru" } ], "dimensions": { "A": "Responsibility", "B": "Initiative" } },
+    { "id": 64, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan dalam rapat" }, { "label": "B", "text": "Saya selalu mengikuti prosedur kerja" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 65, "pair": [ { "label": "A", "text": "Saya suka bekerja tanpa pengawasan" }, { "label": "B", "text": "Saya berempati dengan rekan kerja" } ], "dimensions": { "A": "Independence", "B": "Empathy" } },
+    { "id": 66, "pair": [ { "label": "A", "text": "Saya suka memimpin proyek" }, { "label": "B", "text": "Saya bertanggung jawab atas tim" } ], "dimensions": { "A": "Leadership", "B": "Responsibility" } },
+    { "id": 67, "pair": [ { "label": "A", "text": "Saya selalu bersemangat dalam bekerja" }, { "label": "B", "text": "Saya dapat mengendalikan emosi dengan baik" } ], "dimensions": { "A": "Vigor", "B": "Self-Control" } },
+    { "id": 68, "pair": [ { "label": "A", "text": "Saya suka mencari pengalaman baru" }, { "label": "B", "text": "Saya selalu mengikuti peraturan kantor" } ], "dimensions": { "A": "Initiative", "B": "Conformity" } },
+    { "id": 69, "pair": [ { "label": "A", "text": "Saya peka terhadap kebutuhan orang lain" }, { "label": "B", "text": "Saya suka bekerja mandiri" } ], "dimensions": { "A": "Empathy", "B": "Independence" } },
+    { "id": 70, "pair": [ { "label": "A", "text": "Saya suka mengatur jalannya tim" }, { "label": "B", "text": "Saya bertanggung jawab atas pekerjaan tim" } ], "dimensions": { "A": "Leadership", "B": "Responsibility" } },
+    { "id": 71, "pair": [ { "label": "A", "text": "Saya mudah menyesuaikan diri dengan perubahan" }, { "label": "B", "text": "Saya suka berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 72, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan penting" }, { "label": "B", "text": "Saya selalu mengikuti aturan kerja" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 73, "pair": [ { "label": "A", "text": "Saya selalu berusaha memahami kebutuhan rekan kerja" }, { "label": "B", "text": "Saya lebih suka bekerja mandiri" } ], "dimensions": { "A": "Empathy", "B": "Independence" } },
+    { "id": 74, "pair": [ { "label": "A", "text": "Saya suka mencari solusi kreatif" }, { "label": "B", "text": "Saya bertanggung jawab atas pekerjaan saya" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 75, "pair": [ { "label": "A", "text": "Saya dapat mengendalikan diri dalam situasi sulit" }, { "label": "B", "text": "Saya selalu penuh semangat dalam bekerja" } ], "dimensions": { "A": "Self-Control", "B": "Vigor" } },
+    { "id": 76, "pair": [ { "label": "A", "text": "Saya suka bekerja dalam tim" }, { "label": "B", "text": "Saya lebih suka bekerja sendiri" } ], "dimensions": { "A": "Sociability", "B": "Independence" } },
+    { "id": 77, "pair": [ { "label": "A", "text": "Saya suka memimpin rapat" }, { "label": "B", "text": "Saya selalu mengikuti jadwal kerja" } ], "dimensions": { "A": "Leadership", "B": "Conformity" } },
+    { "id": 78, "pair": [ { "label": "A", "text": "Saya suka mencari pengalaman baru di tempat kerja" }, { "label": "B", "text": "Saya bertanggung jawab atas hasil kerja saya" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 79, "pair": [ { "label": "A", "text": "Saya suka membantu rekan kerja" }, { "label": "B", "text": "Saya selalu mengikuti prosedur yang ditetapkan" } ], "dimensions": { "A": "Empathy", "B": "Conformity" } },
+    { "id": 80, "pair": [ { "label": "A", "text": "Saya mudah beradaptasi dengan lingkungan baru" }, { "label": "B", "text": "Saya suka berinteraksi dengan banyak orang" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 81, "pair": [ { "label": "A", "text": "Saya suka memberi arahan kepada rekan kerja" }, { "label": "B", "text": "Saya lebih suka membantu menyelesaikan masalah orang lain" } ], "dimensions": { "A": "Dominance", "B": "Empathy" } },
+    { "id": 82, "pair": [ { "label": "A", "text": "Saya selalu mematuhi aturan yang berlaku" }, { "label": "B", "text": "Saya mandiri dalam mengambil keputusan" } ], "dimensions": { "A": "Conformity", "B": "Independence" } },
+    { "id": 83, "pair": [ { "label": "A", "text": "Saya sering memulai proyek baru di kantor" }, { "label": "B", "text": "Saya menyelesaikan tugas dengan penuh tanggung jawab" } ], "dimensions": { "A": "Initiative", "B": "Responsibility" } },
+    { "id": 84, "pair": [ { "label": "A", "text": "Saya mudah bergaul di lingkungan baru" }, { "label": "B", "text": "Saya tetap tenang saat menghadapi tekanan" } ], "dimensions": { "A": "Sociability", "B": "Stability" } },
+    { "id": 85, "pair": [ { "label": "A", "text": "Saya suka menjadi pemimpin dalam tim" }, { "label": "B", "text": "Saya selalu antusias dalam bekerja" } ], "dimensions": { "A": "Leadership", "B": "Vigor" } },
+    { "id": 86, "pair": [ { "label": "A", "text": "Saya peka terhadap perasaan orang lain" }, { "label": "B", "text": "Saya suka mengambil inisiatif dalam tugas" } ], "dimensions": { "A": "Empathy", "B": "Initiative" } },
+    { "id": 87, "pair": [ { "label": "A", "text": "Saya cepat menyesuaikan diri di lingkungan baru" }, { "label": "B", "text": "Saya senang bersosialisasi dengan rekan kerja" } ], "dimensions": { "A": "Stability", "B": "Sociability" } },
+    { "id": 88, "pair": [ { "label": "A", "text": "Saya bertanggung jawab atas hasil kerja saya" }, { "label": "B", "text": "Saya sering mengajukan ide baru" } ], "dimensions": { "A": "Responsibility", "B": "Initiative" } },
+    { "id": 89, "pair": [ { "label": "A", "text": "Saya suka mengambil keputusan dalam rapat" }, { "label": "B", "text": "Saya selalu mengikuti prosedur kerja" } ], "dimensions": { "A": "Dominance", "B": "Conformity" } },
+    { "id": 90, "pair": [ { "label": "A", "text": "Saya suka bekerja tanpa pengawasan" }, { "label": "B", "text": "Saya berempati dengan rekan kerja" } ], "dimensions": { "A": "Independence", "B": "Empathy" } }
+  ],
+  "dimensions": {
+    "Dominance": {
+      "description": "Kecenderungan untuk mempengaruhi atau mengontrol orang lain",
+      "highScore": "Memiliki jiwa kepemimpinan yang kuat, suka mengambil kendali",
+      "lowScore": "Lebih suka mengikuti arahan, menghindari konflik"
+    },
+    "Conformity": {
+      "description": "Kecenderungan untuk mengikuti aturan dan prosedur",
+      "highScore": "Sangat patuh pada aturan, disiplin dalam prosedur",
+      "lowScore": "Fleksibel terhadap aturan, lebih menyukai kebebasan"
+    },
+    "Empathy": {
+      "description": "Kemampuan memahami perasaan dan kebutuhan orang lain",
+      "highScore": "Sangat peka terhadap perasaan orang lain, empatik",
+      "lowScore": "Lebih fokus pada tugas daripada perasaan orang lain"
+    },
+    "Vigor": {
+      "description": "Tingkat energi dan antusiasme dalam bekerja",
+      "highScore": "Energik, antusias, dan bersemangat tinggi",
+      "lowScore": "Bekerja dengan tempo yang lebih santai dan teratur"
+    },
+    "Stability": {
+      "description": "Kemampuan mengelola emosi dan tekanan",
+      "highScore": "Sangat stabil secara emosional, tenang under pressure",
+      "lowScore": "Lebih sensitif terhadap tekanan dan perubahan"
+    },
+    "Responsibility": {
+      "description": "Tingkat tanggung jawab dan komitmen terhadap tugas",
+      "highScore": "Sangat bertanggung jawab dan dapat diandalkan",
+      "lowScore": "Lebih fleksibel dalam menangani tanggung jawab"
+    },
+    "Sociability": {
+      "description": "Kecenderungan untuk berinteraksi dengan orang lain",
+      "highScore": "Sangat sosial dan mudah bergaul",
+      "lowScore": "Lebih suka bekerja sendiri atau dalam kelompok kecil"
+    },
+    "Self-Control": {
+      "description": "Kemampuan mengendalikan diri dan emosi",
+      "highScore": "Sangat terkontrol dan berhati-hati",
+      "lowScore": "Lebih spontan dan ekspresif"
+    },
+    "Leadership": {
+      "description": "Kecenderungan untuk memimpin dan mengarahkan orang lain",
+      "highScore": "Memiliki jiwa kepemimpinan natural",
+      "lowScore": "Lebih nyaman sebagai anggota tim"
+    },
+    "Initiative": {
+      "description": "Kecenderungan untuk memulai tindakan secara mandiri",
+      "highScore": "Sangat proaktif dan berinisiatif tinggi",
+      "lowScore": "Lebih suka menunggu arahan atau panduan"
+    },
+    "Independence": {
+      "description": "Tingkat kemandirian dalam bekerja",
+      "highScore": "Sangat mandiri dan dapat bekerja sendiri",
+      "lowScore": "Lebih suka bekerja dalam tim atau dengan panduan"
+    }
+  }
+}

@@ -1,0 +1,1532 @@
+[
+  {
+    "id": 1,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 2,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 3,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 4,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 5,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 6,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 7,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 8,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 9,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 10,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 11,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 12,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 13,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 14,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 15,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 16,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 17,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 18,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 19,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 20,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 21,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 22,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 23,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 24,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 25,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 26,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 27,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 28,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 29,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 30,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 31,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 32,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 33,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 34,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 35,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 36,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 37,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 38,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 39,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 40,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 41,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 42,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 43,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 44,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 45,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 46,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 47,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 48,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 49,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 50,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 51,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 52,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 53,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 54,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 55,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 56,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 57,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 58,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 59,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 60,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 61,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 62,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 63,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 64,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 65,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 66,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 67,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 68,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 69,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 70,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 71,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 72,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 73,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 74,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 75,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 76,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 77,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 78,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 79,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  },
+  {
+    "id": 80,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri vigor dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek sociability."
+      }
+    ],
+    "dimensions": {
+      "A": "Vigor",
+      "B": "Sociability"
+    }
+  },
+  {
+    "id": 81,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri stability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek self-control."
+      }
+    ],
+    "dimensions": {
+      "A": "Stability",
+      "B": "Self-Control"
+    }
+  },
+  {
+    "id": 82,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri responsibility dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek leadership."
+      }
+    ],
+    "dimensions": {
+      "A": "Responsibility",
+      "B": "Leadership"
+    }
+  },
+  {
+    "id": 83,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri sociability dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek initiative."
+      }
+    ],
+    "dimensions": {
+      "A": "Sociability",
+      "B": "Initiative"
+    }
+  },
+  {
+    "id": 84,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri self-control dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek independence."
+      }
+    ],
+    "dimensions": {
+      "A": "Self-Control",
+      "B": "Independence"
+    }
+  },
+  {
+    "id": 85,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri leadership dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek dominance."
+      }
+    ],
+    "dimensions": {
+      "A": "Leadership",
+      "B": "Dominance"
+    }
+  },
+  {
+    "id": 86,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri initiative dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek conformity."
+      }
+    ],
+    "dimensions": {
+      "A": "Initiative",
+      "B": "Conformity"
+    }
+  },
+  {
+    "id": 87,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri independence dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek empathy."
+      }
+    ],
+    "dimensions": {
+      "A": "Independence",
+      "B": "Empathy"
+    }
+  },
+  {
+    "id": 88,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri dominance dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek vigor."
+      }
+    ],
+    "dimensions": {
+      "A": "Dominance",
+      "B": "Vigor"
+    }
+  },
+  {
+    "id": 89,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri conformity dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek stability."
+      }
+    ],
+    "dimensions": {
+      "A": "Conformity",
+      "B": "Stability"
+    }
+  },
+  {
+    "id": 90,
+    "pair": [
+      {
+        "label": "A",
+        "text": "Saya menunjukkan ciri empathy dalam pekerjaan."
+      },
+      {
+        "label": "B",
+        "text": "Saya lebih menonjol dalam aspek responsibility."
+      }
+    ],
+    "dimensions": {
+      "A": "Empathy",
+      "B": "Responsibility"
+    }
+  }
+]

@@ -80,6 +80,9 @@ export default function Header() {
                 <Link href="/leaderboard" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
                   Papan Peringkat
                 </Link>
+                <Link href="/kraepelin" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  Tes Kraepelin
+                </Link>
               </>
             ) : (
                <Link href="/#features" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">

@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "totalQuestions": 90,
+    "language": "id",
+    "estimatedTimeMinutes": {
+      "min": 10,
+      "max": 15
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "pair": [
+        { "label": "A", "text": "Saya senang mengambil keputusan untuk tim" },
+        { "label": "B", "text": "Saya lebih suka bekerja sesuai prosedur yang ada" }
+      ],
+      "dimensions": { "A": "Leadership", "B": "Conformity" }
+    },
+    {
+      "id": 2,
+      "pair": [
+        { "label": "A", "text": "Saya memiliki energi tinggi dalam bekerja" },
+        { "label": "B", "text": "Saya dapat mengendalikan emosi dengan baik" }
+      ],
+      "dimensions": { "A": "Vigor", "B": "Self-Control" }
+    },
+    {
+      "id": 3,
+      "pair": [
+        { "label": "A", "text": "Saya mudah memahami perasaan orang lain" },
+        { "label": "B", "text": "Saya berinisiatif mencari solusi masalah" }
+      ],
+      "dimensions": { "A": "Empathy", "B": "Initiative" }
+    },
+    {
+      "id": 4,
+      "pair": [
+        { "label": "A", "text": "Saya suka mengambil keputusan sendiri" },
+        { "label": "B", "text": "Saya bertanggung jawab atas tugas yang diberikan" }
+      ],
+      "dimensions": { "A": "Independence", "B": "Responsibility" }
+    },
+    {
+      "id": 5,
+      "pair": [
+        { "label": "A", "text": "Saya mudah beradaptasi dengan lingkungan baru" },
+        { "label": "B", "text": "Saya senang berinteraksi dengan banyak orang" }
+      ],
+      "dimensions": { "A": "Stability", "B": "Sociability" }
+    },
+    {
+      "id": 6,
+      "pair": [
+        { "label": "A", "text": "Saya suka memimpin diskusi kelompok" },
+        { "label": "B", "text": "Saya memahami kebutuhan tim dengan baik" }
+      ],
+      "dimensions": { "A": "Dominance", "B": "Empathy" }
+    },
+    {
+      "id": 7,
+      "pair": [
+        { "label": "A", "text": "Saya selalu mengikuti jadwal yang telah dibuat" },
+        { "label": "B", "text": "Saya bisa bekerja mandiri tanpa supervisi" }
+      ],
+      "dimensions": { "A": "Conformity", "B": "Independence" }
+    },
+    {
+      "id": 8,
+      "pair": [
+        { "label": "A", "text": "Saya aktif mencari peluang baru" },
+        { "label": "B", "text": "Saya konsisten dalam menyelesaikan tugas" }
+      ],
+      "dimensions": { "A": "Initiative", "B": "Responsibility" }
+    },
+    {
+      "id": 9,
+      "pair": [
+        { "label": "A", "text": "Saya mudah bergaul dengan orang baru" },
+        { "label": "B", "text": "Saya tetap tenang dalam situasi tertekan" }
+      ],
+      "dimensions": { "A": "Sociability", "B": "Stability" }
+    },
+    {
+      "id": 10,
+      "pair": [
+        { "label": "A", "text": "Saya suka mengorganisir tim" },
+        { "label": "B", "text": "Saya penuh semangat dalam mengerjakan tugas" }
+      ],
+      "dimensions": { "A": "Leadership", "B": "Vigor" }
+    }
+  ],
+  "dimensions": {
+    "Dominance": {
+      "description": "Kecenderungan untuk mempengaruhi atau mengontrol orang lain",
+      "highScore": "Memiliki jiwa kepemimpinan yang kuat, suka mengambil kendali",
+      "lowScore": "Lebih suka mengikuti arahan, menghindari konflik"
+    },
+    "Conformity": {
+      "description": "Kecenderungan untuk mengikuti aturan dan prosedur",
+      "highScore": "Sangat patuh pada aturan, disiplin dalam prosedur",
+      "lowScore": "Fleksibel terhadap aturan, lebih menyukai kebebasan"
+    },
+    "Empathy": {
+      "description": "Kemampuan memahami perasaan dan kebutuhan orang lain",
+      "highScore": "Sangat peka terhadap perasaan orang lain, empatik",
+      "lowScore": "Lebih fokus pada tugas daripada perasaan orang lain"
+    },
+    "Vigor": {
+      "description": "Tingkat energi dan antusiasme dalam bekerja",
+      "highScore": "Energik, antusias, dan bersemangat tinggi",
+      "lowScore": "Bekerja dengan tempo yang lebih santai dan teratur"
+    },
+    "Stability": {
+      "description": "Kemampuan mengelola emosi dan tekanan",
+      "highScore": "Sangat stabil secara emosional, tenang under pressure",
+      "lowScore": "Lebih sensitif terhadap tekanan dan perubahan"
+    },
+    "Responsibility": {
+      "description": "Tingkat tanggung jawab dan komitmen terhadap tugas",
+      "highScore": "Sangat bertanggung jawab dan dapat diandalkan",
+      "lowScore": "Lebih fleksibel dalam menangani tanggung jawab"
+    },
+    "Sociability": {
+      "description": "Kecenderungan untuk berinteraksi dengan orang lain",
+      "highScore": "Sangat sosial dan mudah bergaul",
+      "lowScore": "Lebih suka bekerja sendiri atau dalam kelompok kecil"
+    },
+    "Self-Control": {
+      "description": "Kemampuan mengendalikan diri dan emosi",
+      "highScore": "Sangat terkontrol dan berhati-hati",
+      "lowScore": "Lebih spontan dan ekspresif"
+    },
+    "Leadership": {
+      "description": "Kecenderungan untuk memimpin dan mengarahkan orang lain",
+      "highScore": "Memiliki jiwa kepemimpinan natural",
+      "lowScore": "Lebih nyaman sebagai anggota tim"
+    },
+    "Initiative": {
+      "description": "Kecenderungan untuk memulai tindakan secara mandiri",
+      "highScore": "Sangat proaktif dan berinisiatif tinggi",
+      "lowScore": "Lebih suka menunggu arahan atau panduan"
+    },
+    "Independence": {
+      "description": "Tingkat kemandirian dalam bekerja",
+      "highScore": "Sangat mandiri dan dapat bekerja sendiri",
+      "lowScore": "Lebih suka bekerja dalam tim atau dengan panduan"
+    }
+  }
+}

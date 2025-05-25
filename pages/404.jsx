@@ -23,10 +23,8 @@ export default function Error() {
           <p className="max-w-sm mb-8 text-md">
             Oops! The page you are looking for could not be found. Return to the homepage to continue your CPNS exam preparation with Ikuttes.
           </p>
-          <Link href="/">
-            <a className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
-              Return Home
-            </a>
+          <Link href="/" className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md inline-block">
+            Return Home
           </Link>
         </div>
       </div>

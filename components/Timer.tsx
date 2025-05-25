@@ -1,6 +1,6 @@
-import { Progress } from '@/components/ui/progress';
-import { Badge } from '@/components/ui/badge';
-import { TimerState } from '@/types/kraepelin';
+import { Progress } from '../..components/ui/progress';
+import { Badge } from '../..components/ui/badge';
+import { TimerState } from '../..types/kraepelin';
 
 // Format time as MM:SS
 const formatTime = (timeInSeconds: number): string => {

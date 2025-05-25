@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "totalQuestions": 225,
+    "language": "id",
+    "estimatedTimeMinutes": {
+      "min": 40,
+      "max": 50
+    }
+  },
+  "questions": [
+      { "id": 1, "pair": [ { "label": "A", "text": "Saya senang menyelesaikan tugas yang menantang" }, { "label": "B", "text": "Saya lebih suka mengikuti arahan dari orang lain" } ], "dimensions": { "A": "Achievement", "B": "Deference" } },
+      { "id": 2, "pair": [ { "label": "A", "text": "Saya menyukai keteraturan dan struktur dalam hidup saya" }, { "label": "B", "text": "Saya senang menjadi pusat perhatian" } ], "dimensions": { "A": "Order", "B": "Exhibition" } },
+      { "id": 3, "pair": [ { "label": "A", "text": "Saya lebih suka bekerja sendiri tanpa banyak pengawasan" }, { "label": "B", "text": "Saya senang membangun hubungan dekat dengan orang lain" } ], "dimensions": { "A": "Autonomy", "B": "Affiliation" } },
+      { "id": 4, "pair": [ { "label": "A", "text": "Saya suka menganalisis motif dan perasaan orang lain" }, { "label": "B", "text": "Saya sering mencari dukungan dan nasihat dari orang lain" } ], "dimensions": { "A": "Intraception", "B": "Succorance" } },
+      { "id": 5, "pair": [ { "label": "A", "text": "Saya senang memimpin dan mengarahkan orang lain" }, { "label": "B", "text": "Saya mudah mengakui kesalahan dan menerima kritik" } ], "dimensions": { "A": "Dominance", "B": "Abasement" } },
+      { "id": 6, "pair": [ { "label": "A", "text": "Saya senang membantu orang lain yang membutuhkan" }, { "label": "B", "text": "Saya selalu mencari pengalaman dan hal-hal baru" } ], "dimensions": { "A": "Nurturance", "B": "Change" } },
+      { "id": 7, "pair": [ { "label": "A", "text": "Saya tekun menyelesaikan tugas hingga selesai" }, { "label": "B", "text": "Saya tertarik membangun hubungan dengan lawan jenis" } ], "dimensions": { "A": "Endurance", "B": "Heterosexuality" } },
+      { "id": 8, "pair": [ { "label": "A", "text": "Saya tidak ragu mengekspresikan ketidaksetujuan saya" }, { "label": "B", "text": "Saya berusaha keras untuk mencapai prestasi" } ], "dimensions": { "A": "Aggression", "B": "Achievement" } },
+      { "id": 9, "pair": [ { "label": "A", "text": "Saya menghormati otoritas dan aturan yang ada" }, { "label": "B", "text": "Saya menyukai keteraturan dalam segala hal" } ], "dimensions": { "A": "Deference", "B": "Order" } },
+      { "id": 10, "pair": [ { "label": "A", "text": "Saya senang berbicara di depan umum" }, { "label": "B", "text": "Saya menghargai kebebasan dan kemandirian" } ], "dimensions": { "A": "Exhibition", "B": "Autonomy" } },
+      { "id": 11, "pair": [ { "label": "A", "text": "Saya menikmati aktivitas sosial dengan banyak orang" }, { "label": "B", "text": "Saya suka memahami motivasi dan perilaku manusia" } ], "dimensions": { "A": "Affiliation", "B": "Intraception" } },
+      { "id": 12, "pair": [ { "label": "A", "text": "Saya mencari dukungan saat menghadapi masalah" }, { "label": "B", "text": "Saya senang mengambil peran kepemimpinan" } ], "dimensions": { "A": "Succorance", "B": "Dominance" } },
+      { "id": 13, "pair": [ { "label": "A", "text": "Saya menerima kritik dengan lapang dada" }, { "label": "B", "text": "Saya senang merawat dan membantu orang lain" } ], "dimensions": { "A": "Abasement", "B": "Nurturance" } },
+      { "id": 14, "pair": [ { "label": "A", "text": "Saya menyukai variasi dan perubahan dalam hidup" }, { "label": "B", "text": "Saya gigih dalam menghadapi rintangan" } ], "dimensions": { "A": "Change", "B": "Endurance" } },
+      { "id": 15, "pair": [ { "label": "A", "text": "Saya menikmati interaksi romantis dengan lawan jenis" }, { "label": "B", "text": "Saya tegas dalam menyatakan pendapat saya" } ], "dimensions": { "A": "Heterosexuality", "B": "Aggression" } },
+      { "id": 16, "pair": [ { "label": "A", "text": "Saya bekerja keras untuk mencapai tujuan saya" }, { "label": "B", "text": "Saya menghargai pendapat dan arahan dari atasan" } ], "dimensions": { "A": "Achievement", "B": "Deference" } },
+      { "id": 17, "pair": [ { "label": "A", "text": "Saya menyukai lingkungan yang teratur dan terstruktur" }, { "label": "B", "text": "Saya senang mendapatkan perhatian dari orang lain" } ], "dimensions": { "A": "Order", "B": "Exhibition" } },
+      { "id": 18, "pair": [ { "label": "A", "text": "Saya lebih suka membuat keputusan sendiri" }, { "label": "B", "text": "Saya menikmati kebersamaan dengan teman-teman" } ], "dimensions": { "A": "Autonomy", "B": "Affiliation" } },
+      { "id": 19, "pair": [ { "label": "A", "text": "Saya tertarik mempelajari psikologi manusia" }, { "label": "B", "text": "Saya tidak keberatan meminta bantuan saat diperlukan" } ], "dimensions": { "A": "Intraception", "B": "Succorance" } },
+      { "id": 20, "pair": [ { "label": "A", "text": "Saya suka mengorganisir dan mengarahkan aktivitas kelompok" }, { "label": "B", "text": "Saya mudah merasa bersalah ketika melakukan kesalahan" } ], "dimensions": { "A": "Dominance", "B": "Abasement" } },
+      { "id": 21, "pair": [ { "label": "A", "text": "Saya senang memberikan perhatian pada orang yang membutuhkan" }, { "label": "B", "text": "Saya suka mencoba hal-hal baru" } ], "dimensions": { "A": "Nurturance", "B": "Change" } },
+      { "id": 22, "pair": [ { "label": "A", "text": "Saya menyelesaikan apa yang saya mulai" }, { "label": "B", "text": "Saya menikmati hubungan sosial dengan lawan jenis" } ], "dimensions": { "A": "Endurance", "B": "Heterosexuality" } },
+      { "id": 23, "pair": [ { "label": "A", "text": "Saya tidak takut untuk berdebat dan berargumen" }, { "label": "B", "text": "Saya ambisius dan ingin berhasil" } ], "dimensions": { "A": "Aggression", "B": "Achievement" } },
+      { "id": 24, "pair": [ { "label": "A", "text": "Saya menghormati tradisi dan nilai-nilai yang ada" }, { "label": "B", "text": "Saya suka membuat jadwal dan mengikutinya" } ], "dimensions": { "A": "Deference", "B": "Order" } },
+      { "id": 25, "pair": [ { "label": "A", "text": "Saya senang tampil dan berbicara di depan umum" }, { "label": "B", "text": "Saya menghargai privasi dan kemandirian" } ], "dimensions": { "A": "Exhibition", "B": "Autonomy" } },
+      { "id": 26, "pair": [ { "label": "A", "text": "Saya menikmati kegiatan berkelompok" }, { "label": "B", "text": "Saya suka menganalisis perilaku dan motivasi orang" } ], "dimensions": { "A": "Affiliation", "B": "Intraception" } },
+      { "id": 27, "pair": [ { "label": "A", "text": "Saya sering mencari nasihat dari orang lain" }, { "label": "B", "text": "Saya suka mengambil kendali dalam situasi" } ], "dimensions": { "A": "Succorance", "B": "Dominance" } },
+      { "id": 28, "pair": [ { "label": "A", "text": "Saya mudah mengakui kesalahan saya" }, { "label": "B", "text": "Saya senang merawat orang lain" } ], "dimensions": { "A": "Abasement", "B": "Nurturance" } },
+      { "id": 29, "pair": [ { "label": "A", "text": "Saya menyukai perubahan dan hal-hal baru" }, { "label": "B", "text": "Saya tekun dalam menyelesaikan tugas" } ], "dimensions": { "A": "Change", "B": "Endurance" } },
+      { "id": 30, "pair": [ { "label": "A", "text": "Saya tertarik pada hubungan romantis" }, { "label": "B", "text": "Saya berani mengungkapkan ketidaksetujuan" } ], "dimensions": { "A": "Heterosexuality", "B": "Aggression" } },
+      { "id": 31, "pair": [ { "labela": "A", "text": "Saya berusaha keras untuk sukses" }, { "label": "B", "text": "Saya menghargai arahan dari orang yang berwenang" } ], "dimensions": { "A": "Achievement", "B": "Deference" } },
+      { "id": 32, "pair": [ { "label": "A", "text": "Saya suka keteraturan dan kejelasan" }, { "label": "B", "text": "Saya senang menjadi pusat perhatian" } ], "dimensions": { "A": "Order", "B": "Exhibition" } },
+      { "id": 33, "pair": [ { "label": "A", "text": "Saya lebih suka bekerja dengan cara saya sendiri" }, { "label": "B", "text": "Saya menikmati waktu bersama teman-teman" } ], "dimensions": { "A": "Autonomy", "B": "Affiliation" } },
+      { "id": 34, "pair": [ { "label": "A", "text": "Saya tertarik memahami pikiran dan perasaan orang" }, { "label": "B", "text": "Saya tidak keberatan bergantung pada orang lain" } ], "dimensions": { "A": "Intraception", "B": "Succorance" } },
+      { "id": 35, "pair": [ { "label": "A", "text": "Saya suka memimpin diskusi kelompok" }, { "label": "B", "text": "Saya mudah menerima kritik" } ], "dimensions": { "A": "Dominance", "B": "Abasement" } },
+      { "id": 36, "pair": [ { "label": "A", "text": "Saya senang membantu orang yang kesulitan" }, { "label": "B", "text": "Saya menyukai variasi dalam hidup" } ], "dimensions": { "A": "Nurturance", "B": "Change" } },
+      { "id": 37, "pair": [ { "label": "A", "text": "Saya gigih dalam menghadapi kesulitan" }, { "label": "B", "text": "Saya menikmati interaksi sosial dengan lawan jenis" } ], "dimensions": { "A": "Endurance", "B": "Heterosexuality" } },
+      { "id": 38, "pair": [ { "label": "A", "text": "Saya tidak ragu mengkritik orang lain" }, { "label": "B", "text": "Saya berusaha keras mencapai target" } ], "dimensions": { "A": "Aggression", "B": "Achievement" } },
+      { "id": 39, "pair": [ { "label": "A", "text": "Saya menghormati otoritas" }, { "label": "B", "text": "Saya menyukai segala sesuatu yang teratur" } ], "dimensions": { "A": "Deference", "B": "Order" } },
+      { "id": 40, "pair": [ { "label": "A", "text": "Saya senang menjadi pusat perhatian" }, { "label": "B", "text": "Saya menghargai kebebasan pribadi" } ], "dimensions": { "A": "Exhibition", "B": "Autonomy" } },
+      { "id": 41, "pair": [ { "label": "A", "text": "Saya menikmati aktivitas berkelompok" }, { "label": "B", "text": "Saya suka menganalisis karakter orang" } ], "dimensions": { "A": "Affiliation", "B": "Intraception" } },
+      { "id": 42, "pair": [ { "label": "A", "text": "Saya sering mencari bantuan dan dukungan" }, { "label": "B", "text": "Saya senang mengambil peran kepemimpinan" } ], "dimensions": { "A": "Succorance", "B": "Dominance" } },
+      { "id": 43, "pair": [ { "label": "A", "text": "Saya mudah mengakui kesalahan" }, { "label": "B", "text": "Saya senang merawat orang lain" } ], "dimensions": { "A": "Abasement", "B": "Nurturance" } },
+      { "id": 44, "pair": [ { "label": "A", "text": "Saya menyukai perubahan dan hal baru" }, { "label": "B", "text": "Saya tekun menyelesaikan tugas hingga tuntas" } ], "dimensions": { "A": "Change", "B": "Endurance" } },
+      { "id": 45, "pair": [ { "label": "A", "text": "Saya tertarik pada hubungan romantis" }, { "label": "B", "text": "Saya berani mengungkapkan ketidaksetujuan" } ], "dimensions": { "A": "Heterosexuality", "B": "Aggression" } }
+  ],
+  "dimensions": {
+    "Achievement": {
+      "description": "Kebutuhan untuk mencapai prestasi dan kesuksesan melalui usaha sendiri",
+      "highScore": "Memiliki dorongan kuat untuk berprestasi dan mencapai tujuan",
+      "mediumScore": "Memiliki keseimbangan antara keinginan berprestasi dan menikmati proses",
+      "lowScore": "Cenderung lebih santai dalam mencapai tujuan"
+    },
+    "Deference": {
+      "description": "Kecenderungan untuk patuh, mengikuti pendapat atau kepemimpinan orang lain",
+      "highScore": "Cenderung menghormati otoritas dan mengikuti arahan orang lain",
+      "mediumScore": "Menghargai pendapat orang lain namun tetap mempertahankan pandangan sendiri",
+      "lowScore": "Lebih suka menentukan arah sendiri"
+    },
+    "Order": {
+      "description": "Kebutuhan akan keteraturan, struktur, dan organisasi dalam kehidupan",
+      "highScore": "Sangat menyukai keteraturan, struktur, dan organisasi",
+      "mediumScore": "Menghargai keteraturan namun juga bisa beradaptasi dengan situasi yang kurang terstruktur",
+      "lowScore": "Lebih fleksibel dan spontan"
+    },
+    "Exhibition": {
+      "description": "Keinginan untuk menjadi pusat perhatian dan mengekspresikan diri",
+      "highScore": "Menikmati menjadi pusat perhatian dan mengekspresikan diri",
+      "mediumScore": "Nyaman mengekspresikan diri dalam situasi tertentu",
+      "lowScore": "Cenderung lebih reservasi"
+    },
+    "Autonomy": {
+      "description": "Kebutuhan untuk mandiri dan bebas dari batasan atau aturan orang lain",
+      "highScore": "Sangat menghargai kebebasan dan kemandirian",
+      "mediumScore": "Menyeimbangkan kebutuhan akan kemandirian dengan kemampuan bekerja dalam struktur",
+      "lowScore": "Lebih nyaman bekerja dalam struktur yang jelas"
+    },
+    "Affiliation": {
+      "description": "Keinginan untuk membangun dan mempertahankan hubungan dengan orang lain",
+      "highScore": "Sangat menghargai hubungan sosial dan menikmati bekerja dengan orang lain",
+      "mediumScore": "Menikmati interaksi sosial namun juga menghargai waktu sendiri",
+      "lowScore": "Lebih mandiri secara sosial"
+    },
+    "Intraception": {
+      "description": "Kecenderungan untuk menganalisis motif dan perasaan diri sendiri dan orang lain",
+      "highScore": "Sangat introspektif dan tertarik menganalisis motif dan perasaan",
+      "mediumScore": "Memiliki keseimbangan antara refleksi diri dan tindakan",
+      "lowScore": "Lebih fokus pada tindakan daripada analisis mendalam"
+    },
+    "Succorance": {
+      "description": "Kebutuhan untuk menerima bantuan, dukungan, dan perhatian dari orang lain",
+      "highScore": "Nyaman mencari dukungan dan bantuan dari orang lain",
+      "mediumScore": "Seimbang antara kemandirian dan mencari dukungan",
+      "lowScore": "Sangat mandiri dan lebih suka menyelesaikan masalah sendiri"
+    },
+    "Dominance": {
+      "description": "Keinginan untuk memimpin, mempengaruhi, dan mengendalikan orang lain",
+      "highScore": "Memiliki kecenderungan kuat untuk memimpin dan mempengaruhi orang lain",
+      "mediumScore": "Dapat mengambil peran kepemimpinan bila diperlukan",
+      "lowScore": "Lebih nyaman mengikuti daripada memimpin"
+    },
+    "Abasement": {
+      "description": "Kecenderungan untuk menerima kritik dan menyalahkan diri sendiri",
+      "highScore": "Cenderung kritis terhadap diri sendiri dan mudah menerima kesalahan",
+      "mediumScore": "Memiliki pandangan yang seimbang tentang kekuatan dan kelemahan diri",
+      "lowScore": "Cenderung percaya diri dan kurang menerima kritik"
+    },
+    "Nurturance": {
+      "description": "Keinginan untuk membantu, merawat, dan mendukung orang lain",
+      "highScore": "Memiliki keinginan kuat untuk merawat dan membantu orang lain",
+      "mediumScore": "Peduli pada orang lain namun menyeimbangkannya dengan kebutuhan diri sendiri",
+      "lowScore": "Lebih fokus pada tujuan dan kebutuhan pribadi"
+    },
+    "Change": {
+      "description": "Kebutuhan akan variasi, pengalaman baru, dan perubahan dalam rutinitas",
+      "highScore": "Sangat menyukai variasi dan pengalaman baru",
+      "mediumScore": "Menikmati beberapa variasi namun juga menghargai stabilitas",
+      "lowScore": "Lebih menyukai konsistensi dan stabilitas"
+    },
+    "Endurance": {
+      "description": "Kemampuan untuk bertahan, menyelesaikan tugas, dan mengatasi rintangan",
+      "highScore": "Memiliki ketekunan dan ketahanan yang tinggi",
+      "mediumScore": "Cukup tekun namun juga tahu kapan harus beralih ke pendekatan baru",
+      "lowScore": "Lebih fleksibel dalam mengejar tujuan"
+    },
+    "Heterosexuality": {
+      "description": "Minat dalam membangun hubungan dengan lawan jenis",
+      "highScore": "Sangat tertarik pada interaksi sosial dan hubungan dengan lawan jenis",
+      "mediumScore": "Memiliki minat yang seimbang dalam hubungan dengan lawan jenis",
+      "lowScore": "Kurang fokus pada hubungan romantis"
+    },
+    "Aggression": {
+      "description": "Kecenderungan untuk mengekspresikan pendapat secara tegas atau konfrontatif",
+      "highScore": "Cenderung tegas dan langsung dalam mengekspresikan pendapat",
+      "mediumScore": "Dapat bersikap tegas bila diperlukan namun umumnya diplomatis",
+      "lowScore": "Cenderung menghindari konfrontasi"
+    }
+  }
+}

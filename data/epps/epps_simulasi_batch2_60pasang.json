@@ -1,0 +1,212 @@
+[
+  {
+    "id": 31,
+    "statementA": "Saya merasa lebih puas jika berhasil membantu menyelesaikan masalah orang lain.",
+    "scaleA": "Counsel",
+    "statementB": "Saya senang saat diandalkan untuk memimpin suatu proyek.",
+    "scaleB": "Dominance"
+  },
+  {
+    "id": 32,
+    "statementA": "Saya merasa lebih nyaman jika segala sesuatunya berjalan sesuai rencana.",
+    "scaleA": "Order",
+    "statementB": "Saya merasa terdorong untuk selalu mencoba hal baru.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 33,
+    "statementA": "Saya menyukai situasi di mana saya bisa mengerjakan banyak hal sekaligus.",
+    "scaleA": "Endurance",
+    "statementB": "Saya merasa bahagia jika bisa menjaga kedekatan dengan orang lain.",
+    "scaleB": "Affiliation"
+  },
+  {
+    "id": 34,
+    "statementA": "Saya suka menjadi tempat curhat teman-teman saya.",
+    "scaleA": "Counsel",
+    "statementB": "Saya ingin menjadi yang paling unggul dalam bidang saya.",
+    "scaleB": "Achievement"
+  },
+  {
+    "id": 35,
+    "statementA": "Saya suka menyesuaikan diri dengan kebutuhan kelompok.",
+    "scaleA": "Deference",
+    "statementB": "Saya lebih suka menentukan keputusan saya sendiri.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 36,
+    "statementA": "Saya ingin mendapatkan pengakuan atas hasil kerja saya.",
+    "scaleA": "Achievement",
+    "statementB": "Saya merasa puas saat bisa menyelesaikan pekerjaan dengan tertib.",
+    "scaleB": "Order"
+  },
+  {
+    "id": 37,
+    "statementA": "Saya senang jika diberi kesempatan untuk membantu orang lain tumbuh.",
+    "scaleA": "Nurturance",
+    "statementB": "Saya lebih suka mengejar kesuksesan pribadi.",
+    "scaleB": "Achievement"
+  },
+  {
+    "id": 38,
+    "statementA": "Saya senang jika lingkungan kerja saya penuh keteraturan.",
+    "scaleA": "Order",
+    "statementB": "Saya lebih termotivasi oleh kesempatan untuk bereksperimen.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 39,
+    "statementA": "Saya merasa nyaman saat bisa berbagi cerita dengan banyak orang.",
+    "scaleA": "Affiliation",
+    "statementB": "Saya lebih suka menyendiri saat mengerjakan tugas.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 40,
+    "statementA": "Saya ingin selalu meningkatkan kualitas kerja saya.",
+    "scaleA": "Endurance",
+    "statementB": "Saya merasa lebih baik jika pekerjaan bisa fleksibel.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 41,
+    "statementA": "Saya merasa penting untuk selalu bersikap rapi dan teratur.",
+    "scaleA": "Order",
+    "statementB": "Saya lebih menikmati dinamika perubahan dalam pekerjaan.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 42,
+    "statementA": "Saya senang jika diberi kepercayaan untuk membuat keputusan besar.",
+    "scaleA": "Dominance",
+    "statementB": "Saya suka membantu orang lain menyelesaikan persoalan emosional.",
+    "scaleB": "Counsel"
+  },
+  {
+    "id": 43,
+    "statementA": "Saya merasa puas saat bisa merawat orang yang saya sayangi.",
+    "scaleA": "Nurturance",
+    "statementB": "Saya merasa bangga jika prestasi saya diakui secara publik.",
+    "scaleB": "Achievement"
+  },
+  {
+    "id": 44,
+    "statementA": "Saya senang jika bisa membuat rencana jangka panjang dan menjalankannya.",
+    "scaleA": "Order",
+    "statementB": "Saya merasa hidup lebih menarik jika ada perubahan.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 45,
+    "statementA": "Saya lebih suka mengikuti instruksi daripada mengambil inisiatif.",
+    "scaleA": "Deference",
+    "statementB": "Saya suka membuat keputusan sendiri.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 46,
+    "statementA": "Saya merasa lebih percaya diri ketika memimpin tim.",
+    "scaleA": "Dominance",
+    "statementB": "Saya senang bisa menghibur dan mendukung teman.",
+    "scaleB": "Nurturance"
+  },
+  {
+    "id": 47,
+    "statementA": "Saya merasa lebih efisien dengan jadwal yang tetap dan rapi.",
+    "scaleA": "Order",
+    "statementB": "Saya suka mengejar berbagai peluang baru.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 48,
+    "statementA": "Saya senang berada dalam kelompok sosial yang aktif.",
+    "scaleA": "Affiliation",
+    "statementB": "Saya lebih nyaman bekerja secara independen.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 49,
+    "statementA": "Saya ingin menyelesaikan pekerjaan tanpa menunda-nunda.",
+    "scaleA": "Endurance",
+    "statementB": "Saya senang mencoba pendekatan baru untuk menyelesaikan masalah.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 50,
+    "statementA": "Saya merasa nyaman menjadi pengambil keputusan utama.",
+    "scaleA": "Dominance",
+    "statementB": "Saya suka mencurahkan perhatian pada orang lain.",
+    "scaleB": "Counsel"
+  },
+  {
+    "id": 51,
+    "statementA": "Saya lebih suka pekerjaan yang tenang dan bebas tekanan.",
+    "scaleA": "Autonomy",
+    "statementB": "Saya menikmati bekerja dengan tenggat waktu yang menantang.",
+    "scaleB": "Achievement"
+  },
+  {
+    "id": 52,
+    "statementA": "Saya suka memastikan semua hal berjalan sesuai aturan.",
+    "scaleA": "Order",
+    "statementB": "Saya lebih suka bekerja dalam lingkungan yang fleksibel.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 53,
+    "statementA": "Saya merasa bersemangat saat bisa mendukung pertumbuhan orang lain.",
+    "scaleA": "Nurturance",
+    "statementB": "Saya merasa puas ketika dapat mengerjakan sesuatu secara mandiri.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 54,
+    "statementA": "Saya ingin membuat perubahan positif di lingkungan saya.",
+    "scaleA": "Change",
+    "statementB": "Saya lebih suka memastikan segala sesuatu dilakukan secara konsisten.",
+    "scaleB": "Order"
+  },
+  {
+    "id": 55,
+    "statementA": "Saya ingin dikenal karena ketekunan dan kerja keras saya.",
+    "scaleA": "Endurance",
+    "statementB": "Saya merasa lebih puas jika berada dalam kelompok yang saling mendukung.",
+    "scaleB": "Affiliation"
+  },
+  {
+    "id": 56,
+    "statementA": "Saya merasa lebih bahagia saat bisa memberi perhatian penuh pada orang lain.",
+    "scaleA": "Nurturance",
+    "statementB": "Saya lebih suka menentukan standar kerja saya sendiri.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 57,
+    "statementA": "Saya suka merasa dihargai karena kepemimpinan saya.",
+    "scaleA": "Dominance",
+    "statementB": "Saya lebih suka menjadi pendukung daripada pemimpin.",
+    "scaleB": "Deference"
+  },
+  {
+    "id": 58,
+    "statementA": "Saya suka merencanakan setiap detail pekerjaan saya.",
+    "scaleA": "Order",
+    "statementB": "Saya merasa lebih hidup saat berada dalam tantangan baru.",
+    "scaleB": "Change"
+  },
+  {
+    "id": 59,
+    "statementA": "Saya senang menjadi bagian dari kelompok yang kohesif.",
+    "scaleA": "Affiliation",
+    "statementB": "Saya suka memiliki ruang untuk mengekspresikan individualitas saya.",
+    "scaleB": "Autonomy"
+  },
+  {
+    "id": 60,
+    "statementA": "Saya merasa bangga ketika mampu menyelesaikan tugas berat.",
+    "scaleA": "Achievement",
+    "statementB": "Saya merasa berarti ketika bisa menghibur orang lain.",
+    "scaleB": "Counsel"
+  }
+]

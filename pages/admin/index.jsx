@@ -1,18 +1,20 @@
 import { useState, useEffect } from 'react';
 import { NextSeo } from 'next-seo';
+import { useRouter } from 'next/router';
 import AdminLayout from '../../components/AdminLayout.jsx';
 import { getQuestionStats } from '../../services/questionService.jsx';
 import useAdminStatus from '../../hooks/useAdminStatus.jsx';
-import AccessDeniedModal from '../../components/AccessDeniedModal.jsx';
 
 const AdminDashboard = () => {
   const { isAdmin, loading } = useAdminStatus();
-  const [showModal, setShowModal] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
-    if (!loading && !isAdmin) setShowModal(true);
-    else setShowModal(false);
-  }, [isAdmin, loading]);
+    // Redirect to homepage if not admin and done loading
+    if (!loading && !isAdmin) {
+      router.push('/');
+    }
+  }, [isAdmin, loading, router]);
 
   const [stats, setStats] = useState({
     total: 0,
@@ -50,10 +52,9 @@ const AdminDashboard = () => {
         description="Admin dashboard for managing Ikuttes CPNS app"
         noindex={true}
       />
-      <AccessDeniedModal open={showModal} />
       {loading ? (
         <div className="text-center py-8">Loading...</div>
-      ) : !isAdmin ? null : (
+      ) : isAdmin && (
         <>
           {statsLoading ? (
             <div className="text-center py-8">Loading statistik...</div>
