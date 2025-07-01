@@ -8,11 +8,21 @@ service cloud.firestore {
     
     function isAdmin() {
       return isAuthenticated() && 
-             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+             (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+              get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true);
     }
     
     function isOwner(userId) {
       return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    function isCreatingOwnProfile() {
+      return request.auth.uid == request.resource.data.userId || 
+             request.resource.id == request.auth.uid;
+    }
+    
+    function isUpdatingOnboardingStatus() {
+      return request.resource.data.keys().hasAny(['onboardingCompleted']);
     }
     
     // Default rule - authenticated users can read/write
@@ -43,12 +53,26 @@ service cloud.firestore {
       allow write: if isAdmin() || isOwner(userId);
     }
     
-    // Users Collection
+    // Users Collection - Enhanced for onboarding
     // Users can only access their own data
     // Admins can access all user data
+    // Explicitly allow creating and updating during onboarding
     match /users/{userId} {
+      // Read permission
       allow read: if isAdmin() || isOwner(userId);
-      allow write: if isAdmin() || isOwner(userId);
+      
+      // Create permission - Allow users to create their own profile
+      allow create: if isAdmin() || isOwner(userId);
+      
+      // Update permission - More granular control
+      allow update: if isAdmin() || 
+                      // Owner can update their own profile
+                      (isOwner(userId) && 
+                       // Additional logging for debugging
+                       (debug(request.resource.data)));
+                       
+      // Special case for onboarding
+      allow update: if isOwner(userId) && isUpdatingOnboardingStatus();
     }
     
     // Questions Collection

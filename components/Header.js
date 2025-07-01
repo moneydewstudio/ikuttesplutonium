@@ -74,14 +74,14 @@ export default function Header() {
                 <Link href="/dashboard" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
                   Dashboard
                 </Link>
-                <Link href="/profil" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                  Profil
+                <Link href="/kuis/tryout" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  CPNS Test
                 </Link>
-                <Link href="/leaderboard" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                  Papan Peringkat
+                <Link href="/epps" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+                  EPPS Test
                 </Link>
                 <Link href="/kraepelin" className="text-gray-700 transition duration-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
-                  Tes Kraepelin
+                  Kraepelin Test
                 </Link>
               </>
             ) : (

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../context/AuthContext';
 import { auth } from '../utils/firebase';
@@ -15,18 +15,55 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs'
 
 const Dashboard = () => {
   const router = useRouter();
-  const { currentUser, loading } = useAuth();
+  const { currentUser, loading, userProfile, needsOnboarding } = useAuth();
   const [testResults, setTestResults] = useState(null);
   const [activities, setActivities] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('overview');
+  const [isRedirecting, setIsRedirecting] = useState(false);
+  const redirectAttemptedRef = useRef(false);
 
   useEffect(() => {
-    // Redirect if not logged in and loading is finished
-    if (!loading && !currentUser) {
+    // Skip effect during loading state
+    if (loading || isRedirecting) return;
+    
+    console.log('Dashboard page - Auth state:', { 
+      userExists: !!currentUser, 
+      profileExists: !!userProfile,
+      onboardingCompleted: userProfile?.onboardingCompleted,
+      needsOnboarding
+    });
+    
+    // Redirect if not logged in
+    if (!currentUser) {
+      console.log('User not logged in, redirecting to login');
+      setIsRedirecting(true);
       router.push('/login');
+      return;
     }
-  }, [currentUser, loading, router]);
+    
+    // Prevent duplicate redirects - this stops the redirect loop
+    if (redirectAttemptedRef.current) {
+      console.log('Redirect already attempted, staying on dashboard');
+      return;
+    }
+    
+    // Redirect to onboarding if not completed
+    if (needsOnboarding) {
+      console.log('User needs to complete onboarding, redirecting to onboarding');
+      redirectAttemptedRef.current = true;
+      setIsRedirecting(true);
+      
+      // Use a timeout to avoid a redirect loop
+      const redirectTimer = setTimeout(() => {
+        router.push('/onboarding');
+      }, 300);
+      
+      return () => clearTimeout(redirectTimer);
+    }
+    
+    console.log('User is logged in and has completed onboarding, staying on dashboard');
+  }, [currentUser, loading, router, needsOnboarding, userProfile, isRedirecting]);
 
   useEffect(() => {
     // Fetch all test results and activities when user is logged in

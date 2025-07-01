@@ -1,8 +1,55 @@
 {
   "firestore": {
-    "rules": "rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    // Allow authenticated users to read and write to all collections by default\n    match /{document=**} {\n      allow read, write: if request.auth != null;\n    }\n    \n    // More specific rules for quizResults collection\n    match /quizResults/{document} {\n      // Only allow users to read/write their own quiz results\n      allow read, write: if request.auth != null && request.auth.uid == resource.data.userId;\n      // Allow creation of new quiz results\n      allow create: if request.auth != null && request.auth.uid == request.resource.data.userId;\n    }\n    \n    // Rules for leaderboard collection\n    match /leaderboard/{userId} {\n      // Allow authenticated users to read all leaderboard entries\n      allow read: if request.auth != null;\n      // Only allow users to update their own leaderboard entry\n      allow write: if request.auth != null && request.auth.uid == userId;\n    }\n    \n    // Rules for users collection\n    match /users/{userId} {\n      // Only allow users to read/write their own user data\n      allow read, write: if request.auth != null && request.auth.uid == userId;\n    }\n  }\n}"
+    "rules": "rules_version = '2';\nservice cloud.firestore {\n  // Default deny all\n  match /databases/{database}/documents {\n    match /{document=**} {\n      allow read, write: if false;\n    }\n    \n    // Helper functions\n    function isAuthenticated() {\n      return request.auth != null;\n    }\n    \n    function isOwner(userId) {\n      return isAuthenticated() && request.auth.uid == userId;\n    }\n    \n    function isValidUserData() {\n      return request.resource.data.keys().hasAll(['displayName', 'email']) && \n             request.resource.data.displayName is string &&\n             request.resource.data.email is string &&\n             request.resource.data.displayName.size() >= 2 &&\n             request.resource.data.email.matches('^[^@]+@[^@]+\\.[^@]+$');\n    }\n    \n    function isValidQuizResult() {\n      return request.resource.data.keys().hasAll(['userId', 'score', 'totalQuestions', 'timestamp']) &&\n             request.resource.data.score is number &&\n             request.resource.data.totalQuestions is number &&\n             request.resource.data.timestamp is timestamp;\n    }\n    \n    // Users collection\n    match /users/{userId} {\n      // Users can read/write their own data\n      allow read, write: if isOwner(userId);\n      \n      // Additional validation for user data\n      allow create: if isOwner(userId) && isValidUserData();\n      allow update: if isOwner(userId) && isValidUserData();\n    }\n    \n    // Quiz results collection\n    match /quizResults/{resultId} {\n      // Users can read their own results\n      allow read: if isOwner(resource.data.userId);\n      \n      // Users can create their own results with validation\n      allow create: if isOwner(request.resource.data.userId) && \n                    isValidQuizResult() && \n                    request.resource.data.userId == request.auth.uid;\n    }\n    \n    // Leaderboard collection\n    match /leaderboard/{userId} {\n      // Anyone can read the leaderboard\n      allow read: if isAuthenticated();\n      \n      // Users can only update their own entry\n      allow create, update: if isOwner(userId) && \n                           request.resource.data.score is number &&\n                           request.resource.data.displayName is string;\n    }\n    \n    // Admin functions (if needed in the future)\n    match /admin/{document=**} {\n      allow read, write: if false; // Disabled by default\n    }\n  }\n}"
   },
   "storage": {
-    "rules": "rules_version = '2';\nservice firebase.storage {\n  match /b/{bucket}/o {\n    match /{allPaths=**} {\n      allow read, write: if request.auth != null;\n    }\n  }\n}"
+    "rules": "rules_version = '2';\nservice firebase.storage {\n  match /b/{bucket}/o {\n    // Default deny all\n    match /{allPaths=**} {\n      allow read, write: if false;\n    }\n    \n    // User uploads directory\n    match /userUploads/{userId}/{allPaths=**} {\n      allow read: if request.auth != null;\n      allow write: if request.auth != null && request.auth.uid == userId;\n    }\n    \n    // Profile pictures\n    match /profilePictures/{userId}/{fileName} {\n      allow read: if request.auth != null;\n      allow write: if request.auth != null && request.auth.uid == userId && \n                   request.resource.contentType.matches('image/.*') && \n                   request.resource.size < 5 * 1024 * 1024; // 5MB limit\n    }\n  }\n}"
+  },
+  "hosting": {
+    "headers": [
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "DENY"
+          },
+          {
+            "key": "X-XSS-Protection",
+            "value": "1; mode=block"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|ico|webp)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|font.css)",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000"
+          }
+        ]
+      }
+    ]
   }
 }

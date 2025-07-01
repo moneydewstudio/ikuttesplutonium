@@ -22,7 +22,7 @@ const Register = () => {
     setError(null);
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      router.push('/dashboard');
+      router.push('/onboarding');
     } catch (error) {
       setError(error.message);
     }
@@ -33,7 +33,7 @@ const Register = () => {
     try {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);
-      router.push('/dashboard');
+      router.push('/onboarding');
     } catch (error) {
       setError(error.message);
     }

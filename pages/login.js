@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { auth } from '../utils/firebase';
 import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { getUserProfile } from '../utils/userProfile';
 import Link from 'next/link';
 
 const Login = () => {
@@ -14,9 +15,20 @@ const Login = () => {
     e.preventDefault();
     setError(null);
     try {
-      await signInWithEmailAndPassword(auth, email, password);
-      router.push('/dashboard');
+      // Sign in with Firebase
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+      
+      // Get the ID token
+      const idToken = await user.getIdToken();
+      
+      // Set the session cookie via API
+      await createSessionCookie(idToken);
+      
+      // Check onboarding status and redirect
+      await checkOnboardingAndRedirect(user.uid);
     } catch (error) {
+      console.error('Login error:', error);
       setError(error.message);
     }
   };
@@ -24,11 +36,76 @@ const Login = () => {
   const handleGoogleSignIn = async () => {
     setError(null);
     try {
+      // Sign in with Google
       const provider = new GoogleAuthProvider();
-      await signInWithPopup(auth, provider);
-      router.push('/dashboard');
+      const userCredential = await signInWithPopup(auth, provider);
+      const user = userCredential.user;
+      
+      // Get the ID token
+      const idToken = await user.getIdToken();
+      
+      // Set the session cookie via API
+      await createSessionCookie(idToken);
+      
+      // Check onboarding status and redirect
+      await checkOnboardingAndRedirect(user.uid);
     } catch (error) {
+      console.error('Google sign-in error:', error);
       setError(error.message);
+    }
+  };
+  
+  // Function to create a session cookie via the API
+  const createSessionCookie = async (idToken) => {
+    try {
+      const response = await fetch('/api/auth/session', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ idToken }),
+      });
+      
+      if (!response.ok) {
+        throw new Error('Failed to create session');
+      }
+      
+      const data = await response.json();
+      
+      // Set client-side cookies for middleware
+      document.cookie = `auth=true; path=/; SameSite=Strict`;
+      
+      // If onboarding is completed, set that cookie too
+      if (data.onboardingCompleted) {
+        document.cookie = `onboardingCompleted=true; path=/; SameSite=Strict`;
+        document.cookie = `onboardingCompletedStorage=true; path=/; SameSite=Strict`;
+      }
+      
+      return data;
+    } catch (error) {
+      console.error('Error creating session:', error);
+      throw error;
+    }
+  };
+  
+  // Function to check onboarding status and redirect accordingly
+  const checkOnboardingAndRedirect = async (userId) => {
+    try {
+      // Get user profile from Firestore
+      const userProfile = await getUserProfile(userId);
+      
+      // Determine redirect based on onboarding status
+      if (userProfile && userProfile.onboardingCompleted) {
+        console.log('User has completed onboarding, redirecting to dashboard');
+        router.push('/dashboard');
+      } else {
+        console.log('User needs to complete onboarding, redirecting to onboarding');
+        router.push('/onboarding');
+      }
+    } catch (error) {
+      console.error('Error checking onboarding status:', error);
+      // Default to onboarding if there's an error
+      router.push('/onboarding');
     }
   };
 

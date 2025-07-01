@@ -8,11 +8,7 @@ export default function Footer() {
       <div className="container flex flex-col items-center px-10 pb-8 mx-auto border-t border-purple-600 dark:border-purple-300 sm:flex-row">
         <Link href="/" className="flex items-center justify-center mt-3 text-xl font-medium title-font md:ml-3 md:justify-start">
   Ikuttes
-</Link>
-        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300"></div>
-        <Link href={`https://github.com/YOUR_GITHUB_USERNAME/ikuttes/edit/main/pages${router.pathname}.js`} className="flex items-center justify-center mt-3 font-medium title-font md:justify-start">
-  <span className="text-sm md:ml-5">Edit on GitHub</span>
-</Link>
+        </Link>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-3 sm:justify-start">
           <a
             aria-label="mail"

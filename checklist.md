@@ -88,17 +88,6 @@ This checklist outlines all the critical tasks and deliverables for the MVP, bro
 
 ---
 
-## 🔍 Phase 4: News Feed via Gemini + Firebase
-
-- [ ] Setup Gemini API credentials and access
-- [ ] Define prompts to fetch and summarize relevant news
-- [ ] Schedule daily summary task (Cloud Function or cron)
-- [ ] Parse and store summarized news to Firestore `news` collection
-- [ ] Build UI to display latest 5–10 news updates
-- [ ] Highlight upcoming registration deadlines
-
----
-
 ## 📊 Phase 5: Profile & Progress
 
 - [x] Create Profile page layout
@@ -107,20 +96,21 @@ This checklist outlines all the critical tasks and deliverables for the MVP, bro
 - [ ] Show stored personality test result
 - [x] Track completed quizzes and attempts
 
+### 🚀 User Onboarding & Target Setting
+- [x] Create onboarding flow for new users
+- [x] Allow users to set target province preferences
+- [x] Implement academic background collection
+- [x] Add educational institution and GPA tracking
+- [x] Add passing score calculator with visual feedback
+- [x] Create study plan and focus area selection
+- [ ] Build database of 2025 CPNS formations by institution
+- [ ] Add feature to filter/search available positions
+
 **Progress Notes (April 23):**
 - Updated Profile page to fetch quiz history from Firestore instead of localStorage
 - Added statistics visualization with total attempts, average score, and best score
 - Implemented performance tracking by quiz type with visual progress bars
 - Added fallback to localStorage when Firestore operations fail due to permissions
-
----
-
-## 🔔 Phase 6: Reminders & Deadline Tracking
-
-- [ ] Create static Firebase collection for exam dates
-- [ ] UI for users to tap “Remind Me”
-- [ ] Optional: Setup Firebase Cloud Messaging
-- [ ] Send push/email reminder for upcoming deadlines
 
 ---
 
